@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "energy",
+  "data": {
+    "energy_sources": [
+      {
+        "type": "grid",
+        "flow_from": [
+          {
+            "stat_energy_from": "sensor.aeration_pump_summation_delivered",
+            "stat_cost": null,
+            "entity_energy_price": null,
+            "number_energy_price": null
+          },
+          {
+            "stat_energy_from": "sensor.nutrient_pump_summation_delivered",
+            "stat_cost": null,
+            "entity_energy_price": null,
+            "number_energy_price": 0.13
+          },
+          {
+            "stat_energy_from": "sensor.grow_tent_light_summation_delivered",
+            "stat_cost": null,
+            "entity_energy_price": null,
+            "number_energy_price": null
+          }
+        ],
+        "flow_to": [],
+        "cost_adjustment_day": 0.0
+      }
+    ],
+    "device_consumption": []
+  }
+}

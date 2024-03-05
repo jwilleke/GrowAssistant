@@ -1,0 +1,3577 @@
+{
+  "version": 1,
+  "minor_version": 12,
+  "key": "core.entity_registry",
+  "data": {
+    "entities": [
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "e8c5499a1bfa5d981f36a34cdbae6a6c",
+        "device_class": null,
+        "device_id": "a1e8ec6babdaa96dc30c5b67d0fdca12",
+        "disabled_by": null,
+        "entity_category": "config",
+        "entity_id": "update.home_assistant_supervisor_update",
+        "hidden_by": null,
+        "icon": null,
+        "id": "16fc77e895fab6731227ba2df888eda8",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": "Update",
+        "platform": "hassio",
+        "supported_features": 1,
+        "translation_key": null,
+        "unique_id": "home_assistant_supervisor_version_latest",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "e8c5499a1bfa5d981f36a34cdbae6a6c",
+        "device_class": null,
+        "device_id": "805b9b2170ec2ca99a8d450af1ddcb51",
+        "disabled_by": null,
+        "entity_category": "config",
+        "entity_id": "update.home_assistant_core_update",
+        "hidden_by": null,
+        "icon": null,
+        "id": "a6f24a5285da101ea4f295c802d0182d",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": "Update",
+        "platform": "hassio",
+        "supported_features": 11,
+        "translation_key": null,
+        "unique_id": "home_assistant_core_version_latest",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "e8c5499a1bfa5d981f36a34cdbae6a6c",
+        "device_class": null,
+        "device_id": "8a46f3697b17022ea4c10ff91552e4c8",
+        "disabled_by": null,
+        "entity_category": "config",
+        "entity_id": "update.home_assistant_operating_system_update",
+        "hidden_by": null,
+        "icon": null,
+        "id": "a7626ce1a2b6e2070cdf792268239a11",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": "Update",
+        "platform": "hassio",
+        "supported_features": 3,
+        "translation_key": null,
+        "unique_id": "home_assistant_os_version_latest",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "e8c5499a1bfa5d981f36a34cdbae6a6c",
+        "device_class": null,
+        "device_id": "805b9b2170ec2ca99a8d450af1ddcb51",
+        "disabled_by": "integration",
+        "entity_category": null,
+        "entity_id": "sensor.home_assistant_core_cpu_percent",
+        "hidden_by": null,
+        "icon": null,
+        "id": "8b72ea10c9634ca71f75ddc7a65c2d82",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:cpu-64-bit",
+        "original_name": "CPU percent",
+        "platform": "hassio",
+        "supported_features": 0,
+        "translation_key": "cpu_percent",
+        "unique_id": "home_assistant_core_cpu_percent",
+        "previous_unique_id": null,
+        "unit_of_measurement": "%"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "e8c5499a1bfa5d981f36a34cdbae6a6c",
+        "device_class": null,
+        "device_id": "805b9b2170ec2ca99a8d450af1ddcb51",
+        "disabled_by": "integration",
+        "entity_category": null,
+        "entity_id": "sensor.home_assistant_core_memory_percent",
+        "hidden_by": null,
+        "icon": null,
+        "id": "46166eeb3e0af380a589a4c0fd88a280",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:memory",
+        "original_name": "Memory percent",
+        "platform": "hassio",
+        "supported_features": 0,
+        "translation_key": "memory_percent",
+        "unique_id": "home_assistant_core_memory_percent",
+        "previous_unique_id": null,
+        "unit_of_measurement": "%"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "e8c5499a1bfa5d981f36a34cdbae6a6c",
+        "device_class": null,
+        "device_id": "a1e8ec6babdaa96dc30c5b67d0fdca12",
+        "disabled_by": "integration",
+        "entity_category": null,
+        "entity_id": "sensor.home_assistant_supervisor_cpu_percent",
+        "hidden_by": null,
+        "icon": null,
+        "id": "a13eccf7867f5c2ccdef397cd88c9589",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:cpu-64-bit",
+        "original_name": "CPU percent",
+        "platform": "hassio",
+        "supported_features": 0,
+        "translation_key": "cpu_percent",
+        "unique_id": "home_assistant_supervisor_cpu_percent",
+        "previous_unique_id": null,
+        "unit_of_measurement": "%"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "e8c5499a1bfa5d981f36a34cdbae6a6c",
+        "device_class": null,
+        "device_id": "a1e8ec6babdaa96dc30c5b67d0fdca12",
+        "disabled_by": "integration",
+        "entity_category": null,
+        "entity_id": "sensor.home_assistant_supervisor_memory_percent",
+        "hidden_by": null,
+        "icon": null,
+        "id": "dfbcd1a9dd66576a710e33c533e6dcc6",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:memory",
+        "original_name": "Memory percent",
+        "platform": "hassio",
+        "supported_features": 0,
+        "translation_key": "memory_percent",
+        "unique_id": "home_assistant_supervisor_memory_percent",
+        "previous_unique_id": null,
+        "unit_of_measurement": "%"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "e8c5499a1bfa5d981f36a34cdbae6a6c",
+        "device_class": null,
+        "device_id": "bc378ae1284a1e8a92b78623e67c372d",
+        "disabled_by": "integration",
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.home_assistant_host_os_agent_version",
+        "hidden_by": null,
+        "icon": null,
+        "id": "50ef2d6905350ae16fd994d465449198",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": "OS Agent version",
+        "platform": "hassio",
+        "supported_features": 0,
+        "translation_key": "agent_version",
+        "unique_id": "home_assistant_host_agent_version",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "e8c5499a1bfa5d981f36a34cdbae6a6c",
+        "device_class": null,
+        "device_id": "bc378ae1284a1e8a92b78623e67c372d",
+        "disabled_by": "integration",
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.home_assistant_host_apparmor_version",
+        "hidden_by": null,
+        "icon": null,
+        "id": "1aacd6029d92d3e0cd729384e488d69b",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": "Apparmor version",
+        "platform": "hassio",
+        "supported_features": 0,
+        "translation_key": "apparmor_version",
+        "unique_id": "home_assistant_host_apparmor_version",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "e8c5499a1bfa5d981f36a34cdbae6a6c",
+        "device_class": null,
+        "device_id": "bc378ae1284a1e8a92b78623e67c372d",
+        "disabled_by": "integration",
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.home_assistant_host_disk_total",
+        "hidden_by": null,
+        "icon": null,
+        "id": "578604d8a6330b9f61f2489f0a2db379",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "data_size",
+        "original_icon": null,
+        "original_name": "Disk total",
+        "platform": "hassio",
+        "supported_features": 0,
+        "translation_key": "disk_total",
+        "unique_id": "home_assistant_host_disk_total",
+        "previous_unique_id": null,
+        "unit_of_measurement": "GB"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "e8c5499a1bfa5d981f36a34cdbae6a6c",
+        "device_class": null,
+        "device_id": "bc378ae1284a1e8a92b78623e67c372d",
+        "disabled_by": "integration",
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.home_assistant_host_disk_used",
+        "hidden_by": null,
+        "icon": null,
+        "id": "bcfd9f19ed02b34a0e2550fa4b254a58",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "data_size",
+        "original_icon": null,
+        "original_name": "Disk used",
+        "platform": "hassio",
+        "supported_features": 0,
+        "translation_key": "disk_used",
+        "unique_id": "home_assistant_host_disk_used",
+        "previous_unique_id": null,
+        "unit_of_measurement": "GB"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "e8c5499a1bfa5d981f36a34cdbae6a6c",
+        "device_class": null,
+        "device_id": "bc378ae1284a1e8a92b78623e67c372d",
+        "disabled_by": "integration",
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.home_assistant_host_disk_free",
+        "hidden_by": null,
+        "icon": null,
+        "id": "4a315608c8fbb5eb8c40d4b1c86eeb51",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "data_size",
+        "original_icon": null,
+        "original_name": "Disk free",
+        "platform": "hassio",
+        "supported_features": 0,
+        "translation_key": "disk_free",
+        "unique_id": "home_assistant_host_disk_free",
+        "previous_unique_id": null,
+        "unit_of_measurement": "GB"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "e8c5499a1bfa5d981f36a34cdbae6a6c",
+        "device_class": null,
+        "device_id": "8a46f3697b17022ea4c10ff91552e4c8",
+        "disabled_by": "integration",
+        "entity_category": null,
+        "entity_id": "sensor.home_assistant_operating_system_version",
+        "hidden_by": null,
+        "icon": null,
+        "id": "aba67317038ebdb7ad0a1617368d62fa",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": "Version",
+        "platform": "hassio",
+        "supported_features": 0,
+        "translation_key": "version",
+        "unique_id": "home_assistant_os_version",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "e8c5499a1bfa5d981f36a34cdbae6a6c",
+        "device_class": null,
+        "device_id": "8a46f3697b17022ea4c10ff91552e4c8",
+        "disabled_by": "integration",
+        "entity_category": null,
+        "entity_id": "sensor.home_assistant_operating_system_newest_version",
+        "hidden_by": null,
+        "icon": null,
+        "id": "d37996920aa777658262f8c5e2c55ea2",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": "Newest version",
+        "platform": "hassio",
+        "supported_features": 0,
+        "translation_key": "version_latest",
+        "unique_id": "home_assistant_os_version_latest",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "19ea3a91f67884601eca0bfa175a95a3",
+        "device_class": null,
+        "device_id": "b91943f1f550989b47e8a47d00c5eba1",
+        "disabled_by": null,
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.sun_next_dawn",
+        "hidden_by": null,
+        "icon": null,
+        "id": "95ed19ef9d275faaebb6a39f65181ab0",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "timestamp",
+        "original_icon": null,
+        "original_name": "Next dawn",
+        "platform": "sun",
+        "supported_features": 0,
+        "translation_key": "next_dawn",
+        "unique_id": "19ea3a91f67884601eca0bfa175a95a3-next_dawn",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "19ea3a91f67884601eca0bfa175a95a3",
+        "device_class": null,
+        "device_id": "b91943f1f550989b47e8a47d00c5eba1",
+        "disabled_by": null,
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.sun_next_dusk",
+        "hidden_by": null,
+        "icon": null,
+        "id": "44e48973456bee389ae6208950793c38",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "timestamp",
+        "original_icon": null,
+        "original_name": "Next dusk",
+        "platform": "sun",
+        "supported_features": 0,
+        "translation_key": "next_dusk",
+        "unique_id": "19ea3a91f67884601eca0bfa175a95a3-next_dusk",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "19ea3a91f67884601eca0bfa175a95a3",
+        "device_class": null,
+        "device_id": "b91943f1f550989b47e8a47d00c5eba1",
+        "disabled_by": null,
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.sun_next_midnight",
+        "hidden_by": null,
+        "icon": null,
+        "id": "04f232555d21964c1c2a85fc6988de4a",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "timestamp",
+        "original_icon": null,
+        "original_name": "Next midnight",
+        "platform": "sun",
+        "supported_features": 0,
+        "translation_key": "next_midnight",
+        "unique_id": "19ea3a91f67884601eca0bfa175a95a3-next_midnight",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "19ea3a91f67884601eca0bfa175a95a3",
+        "device_class": null,
+        "device_id": "b91943f1f550989b47e8a47d00c5eba1",
+        "disabled_by": null,
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.sun_next_noon",
+        "hidden_by": null,
+        "icon": null,
+        "id": "0694c32979635f4767c5c30ffe2ed74b",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "timestamp",
+        "original_icon": null,
+        "original_name": "Next noon",
+        "platform": "sun",
+        "supported_features": 0,
+        "translation_key": "next_noon",
+        "unique_id": "19ea3a91f67884601eca0bfa175a95a3-next_noon",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "19ea3a91f67884601eca0bfa175a95a3",
+        "device_class": null,
+        "device_id": "b91943f1f550989b47e8a47d00c5eba1",
+        "disabled_by": null,
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.sun_next_rising",
+        "hidden_by": null,
+        "icon": null,
+        "id": "885ec33d029151d843dc2fc038585eb2",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "timestamp",
+        "original_icon": null,
+        "original_name": "Next rising",
+        "platform": "sun",
+        "supported_features": 0,
+        "translation_key": "next_rising",
+        "unique_id": "19ea3a91f67884601eca0bfa175a95a3-next_rising",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "19ea3a91f67884601eca0bfa175a95a3",
+        "device_class": null,
+        "device_id": "b91943f1f550989b47e8a47d00c5eba1",
+        "disabled_by": null,
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.sun_next_setting",
+        "hidden_by": null,
+        "icon": null,
+        "id": "56374c328bb4cb337bf4ad9cfa14ac17",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "timestamp",
+        "original_icon": null,
+        "original_name": "Next setting",
+        "platform": "sun",
+        "supported_features": 0,
+        "translation_key": "next_setting",
+        "unique_id": "19ea3a91f67884601eca0bfa175a95a3-next_setting",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "19ea3a91f67884601eca0bfa175a95a3",
+        "device_class": null,
+        "device_id": "b91943f1f550989b47e8a47d00c5eba1",
+        "disabled_by": "integration",
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.sun_solar_elevation",
+        "hidden_by": null,
+        "icon": null,
+        "id": "b4ad4c95a63419fcbb2e127d3ab2f142",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": "Solar elevation",
+        "platform": "sun",
+        "supported_features": 0,
+        "translation_key": "solar_elevation",
+        "unique_id": "19ea3a91f67884601eca0bfa175a95a3-solar_elevation",
+        "previous_unique_id": null,
+        "unit_of_measurement": "°"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "19ea3a91f67884601eca0bfa175a95a3",
+        "device_class": null,
+        "device_id": "b91943f1f550989b47e8a47d00c5eba1",
+        "disabled_by": "integration",
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.sun_solar_azimuth",
+        "hidden_by": null,
+        "icon": null,
+        "id": "2b9dd313361cb48136c3535ff5312cd1",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": "Solar azimuth",
+        "platform": "sun",
+        "supported_features": 0,
+        "translation_key": "solar_azimuth",
+        "unique_id": "19ea3a91f67884601eca0bfa175a95a3-solar_azimuth",
+        "previous_unique_id": null,
+        "unit_of_measurement": "°"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "19ea3a91f67884601eca0bfa175a95a3",
+        "device_class": null,
+        "device_id": "b91943f1f550989b47e8a47d00c5eba1",
+        "disabled_by": "integration",
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.sun_solar_rising",
+        "hidden_by": null,
+        "icon": null,
+        "id": "429ff798838ef95ee0b7df8c315a53b9",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": "Solar rising",
+        "platform": "sun",
+        "supported_features": 0,
+        "translation_key": "solar_rising",
+        "unique_id": "19ea3a91f67884601eca0bfa175a95a3-solar_rising",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "85349f5bfc4ff13b709e8a0d8eddce15",
+        "device_class": null,
+        "device_id": null,
+        "disabled_by": null,
+        "entity_category": "diagnostic",
+        "entity_id": "binary_sensor.rpi_power_status",
+        "hidden_by": null,
+        "icon": null,
+        "id": "5fa12f00ffa9c6c3dd1965395674ad0e",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "problem",
+        "original_icon": "mdi:raspberry-pi",
+        "original_name": "RPi Power status",
+        "platform": "rpi_power",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "rpi_power",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": null,
+        "device_class": null,
+        "device_id": null,
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "person.jim",
+        "hidden_by": null,
+        "icon": null,
+        "id": "30b45a7dd72f1019f34ffde435c0be0a",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": "jim",
+        "platform": "person",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "jim",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "fb37819271805911a46103ff8a80144d",
+        "device_class": null,
+        "device_id": null,
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "tts.google_en_com",
+        "hidden_by": null,
+        "icon": null,
+        "id": "89cd7fa3a30f2c10489dec04be507ced",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": "Google en com",
+        "platform": "google_translate",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "fb37819271805911a46103ff8a80144d",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "a0f2f9a6264949e52edd2c80ff12a6f1",
+        "device_class": null,
+        "device_id": "d5618938d30d074592d5c7d52b8786db",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "weather.forecast_home",
+        "hidden_by": null,
+        "icon": null,
+        "id": "1e7237fcb81913961487e333217e759d",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": "Home",
+        "platform": "met",
+        "supported_features": 3,
+        "translation_key": null,
+        "unique_id": "home",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "e8c5499a1bfa5d981f36a34cdbae6a6c",
+        "device_class": null,
+        "device_id": "a092f6c85e2f7184abc73e2c0adf46b8",
+        "disabled_by": "integration",
+        "entity_category": null,
+        "entity_id": "binary_sensor.file_editor_running",
+        "hidden_by": null,
+        "icon": null,
+        "id": "a4ade3771fcb3707e18e462d4615e020",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "running",
+        "original_icon": null,
+        "original_name": "Running",
+        "platform": "hassio",
+        "supported_features": 0,
+        "translation_key": "state",
+        "unique_id": "core_configurator_state",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "e8c5499a1bfa5d981f36a34cdbae6a6c",
+        "device_class": null,
+        "device_id": "1d8a603c9af7db50a7beeee924e7e9c4",
+        "disabled_by": "integration",
+        "entity_category": null,
+        "entity_id": "binary_sensor.advanced_ssh_web_terminal_running",
+        "hidden_by": null,
+        "icon": null,
+        "id": "b0441da8ebf8689159f791c6be76b5f3",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "running",
+        "original_icon": null,
+        "original_name": "Running",
+        "platform": "hassio",
+        "supported_features": 0,
+        "translation_key": "state",
+        "unique_id": "a0d7b954_ssh_state",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "e8c5499a1bfa5d981f36a34cdbae6a6c",
+        "device_class": null,
+        "device_id": "a092f6c85e2f7184abc73e2c0adf46b8",
+        "disabled_by": "integration",
+        "entity_category": null,
+        "entity_id": "sensor.file_editor_version",
+        "hidden_by": null,
+        "icon": null,
+        "id": "7dcb47b3262de795c9c6cf2774288ce8",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": "Version",
+        "platform": "hassio",
+        "supported_features": 0,
+        "translation_key": "version",
+        "unique_id": "core_configurator_version",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "e8c5499a1bfa5d981f36a34cdbae6a6c",
+        "device_class": null,
+        "device_id": "a092f6c85e2f7184abc73e2c0adf46b8",
+        "disabled_by": "integration",
+        "entity_category": null,
+        "entity_id": "sensor.file_editor_newest_version",
+        "hidden_by": null,
+        "icon": null,
+        "id": "f9005301eca1701dfd8e1fc77be62821",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": "Newest version",
+        "platform": "hassio",
+        "supported_features": 0,
+        "translation_key": "version_latest",
+        "unique_id": "core_configurator_version_latest",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "e8c5499a1bfa5d981f36a34cdbae6a6c",
+        "device_class": null,
+        "device_id": "a092f6c85e2f7184abc73e2c0adf46b8",
+        "disabled_by": "integration",
+        "entity_category": null,
+        "entity_id": "sensor.file_editor_cpu_percent",
+        "hidden_by": null,
+        "icon": null,
+        "id": "6001ad2ef15d51e1356a7713e85a7e6e",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:cpu-64-bit",
+        "original_name": "CPU percent",
+        "platform": "hassio",
+        "supported_features": 0,
+        "translation_key": "cpu_percent",
+        "unique_id": "core_configurator_cpu_percent",
+        "previous_unique_id": null,
+        "unit_of_measurement": "%"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "e8c5499a1bfa5d981f36a34cdbae6a6c",
+        "device_class": null,
+        "device_id": "a092f6c85e2f7184abc73e2c0adf46b8",
+        "disabled_by": "integration",
+        "entity_category": null,
+        "entity_id": "sensor.file_editor_memory_percent",
+        "hidden_by": null,
+        "icon": null,
+        "id": "08bc3b1076f7558884b79e97f0eca8a8",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:memory",
+        "original_name": "Memory percent",
+        "platform": "hassio",
+        "supported_features": 0,
+        "translation_key": "memory_percent",
+        "unique_id": "core_configurator_memory_percent",
+        "previous_unique_id": null,
+        "unit_of_measurement": "%"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "e8c5499a1bfa5d981f36a34cdbae6a6c",
+        "device_class": null,
+        "device_id": "1d8a603c9af7db50a7beeee924e7e9c4",
+        "disabled_by": "integration",
+        "entity_category": null,
+        "entity_id": "sensor.advanced_ssh_web_terminal_version",
+        "hidden_by": null,
+        "icon": null,
+        "id": "893d8f1b70e6fb4d924023447033ae68",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": "Version",
+        "platform": "hassio",
+        "supported_features": 0,
+        "translation_key": "version",
+        "unique_id": "a0d7b954_ssh_version",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "e8c5499a1bfa5d981f36a34cdbae6a6c",
+        "device_class": null,
+        "device_id": "1d8a603c9af7db50a7beeee924e7e9c4",
+        "disabled_by": "integration",
+        "entity_category": null,
+        "entity_id": "sensor.advanced_ssh_web_terminal_newest_version",
+        "hidden_by": null,
+        "icon": null,
+        "id": "a7ae7d03a2d94e2fc3c216de69dc695e",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": "Newest version",
+        "platform": "hassio",
+        "supported_features": 0,
+        "translation_key": "version_latest",
+        "unique_id": "a0d7b954_ssh_version_latest",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "e8c5499a1bfa5d981f36a34cdbae6a6c",
+        "device_class": null,
+        "device_id": "1d8a603c9af7db50a7beeee924e7e9c4",
+        "disabled_by": "integration",
+        "entity_category": null,
+        "entity_id": "sensor.advanced_ssh_web_terminal_cpu_percent",
+        "hidden_by": null,
+        "icon": null,
+        "id": "5adc2e74a754e4913178f339ff38b8b6",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:cpu-64-bit",
+        "original_name": "CPU percent",
+        "platform": "hassio",
+        "supported_features": 0,
+        "translation_key": "cpu_percent",
+        "unique_id": "a0d7b954_ssh_cpu_percent",
+        "previous_unique_id": null,
+        "unit_of_measurement": "%"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "e8c5499a1bfa5d981f36a34cdbae6a6c",
+        "device_class": null,
+        "device_id": "1d8a603c9af7db50a7beeee924e7e9c4",
+        "disabled_by": "integration",
+        "entity_category": null,
+        "entity_id": "sensor.advanced_ssh_web_terminal_memory_percent",
+        "hidden_by": null,
+        "icon": null,
+        "id": "0c2a5d0450a3cdea079010929835632e",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:memory",
+        "original_name": "Memory percent",
+        "platform": "hassio",
+        "supported_features": 0,
+        "translation_key": "memory_percent",
+        "unique_id": "a0d7b954_ssh_memory_percent",
+        "previous_unique_id": null,
+        "unit_of_measurement": "%"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "e8c5499a1bfa5d981f36a34cdbae6a6c",
+        "device_class": null,
+        "device_id": "a092f6c85e2f7184abc73e2c0adf46b8",
+        "disabled_by": null,
+        "entity_category": "config",
+        "entity_id": "update.file_editor_update",
+        "hidden_by": null,
+        "icon": null,
+        "id": "d6352e26b3bc9edde72c5bcea3d236b3",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": "Update",
+        "platform": "hassio",
+        "supported_features": 25,
+        "translation_key": null,
+        "unique_id": "core_configurator_version_latest",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "e8c5499a1bfa5d981f36a34cdbae6a6c",
+        "device_class": null,
+        "device_id": "1d8a603c9af7db50a7beeee924e7e9c4",
+        "disabled_by": null,
+        "entity_category": "config",
+        "entity_id": "update.advanced_ssh_web_terminal_update",
+        "hidden_by": null,
+        "icon": null,
+        "id": "d1b827c5dfd96b7e2d0e616117512ad5",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": "Update",
+        "platform": "hassio",
+        "supported_features": 25,
+        "translation_key": null,
+        "unique_id": "a0d7b954_ssh_version_latest",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "a9b37d204836b925fc734ae6f5ac5031",
+        "device_class": null,
+        "device_id": "4f20a8eaeee08463dd0d320eaeed7101",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "sensor.nutrient_tank_readcount",
+        "hidden_by": null,
+        "icon": null,
+        "id": "348d3f984e80e139d35fd1a494e65ac4",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:timer",
+        "original_name": "uptime",
+        "platform": "mqtt",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "ardUptime",
+        "previous_unique_id": null,
+        "unit_of_measurement": "s"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "a9b37d204836b925fc734ae6f5ac5031",
+        "device_class": null,
+        "device_id": "4f20a8eaeee08463dd0d320eaeed7101",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "sensor.nutrient_tank_orb",
+        "hidden_by": null,
+        "icon": null,
+        "id": "400a486bb4663dce2497cb43cadb6734",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:current-dc",
+        "original_name": "ORB",
+        "platform": "mqtt",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "ORB",
+        "previous_unique_id": null,
+        "unit_of_measurement": "mv"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "a9b37d204836b925fc734ae6f5ac5031",
+        "device_class": null,
+        "device_id": "4f20a8eaeee08463dd0d320eaeed7101",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "sensor.nutrient_tank_ph",
+        "hidden_by": null,
+        "icon": null,
+        "id": "335eb9b69d92c848225e349a9ed9550b",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:ph",
+        "original_name": "pH",
+        "platform": "mqtt",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "PH",
+        "previous_unique_id": null,
+        "unit_of_measurement": "pH"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "a9b37d204836b925fc734ae6f5ac5031",
+        "device_class": null,
+        "device_id": "4f20a8eaeee08463dd0d320eaeed7101",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "sensor.nutrient_tank_temperature",
+        "hidden_by": null,
+        "icon": null,
+        "id": "46b6ed5b9f5ab8ff7ca876962359da7f",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:thermometer",
+        "original_name": "Temperature",
+        "platform": "mqtt",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "Temperature",
+        "previous_unique_id": null,
+        "unit_of_measurement": "°C"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "a9b37d204836b925fc734ae6f5ac5031",
+        "device_class": null,
+        "device_id": "4f20a8eaeee08463dd0d320eaeed7101",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "sensor.nutrient_tank_tds",
+        "hidden_by": null,
+        "icon": null,
+        "id": "16da0e12cf5ec44c39aad17fde503e30",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:chart-scatter-plot",
+        "original_name": "TDS",
+        "platform": "mqtt",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "TDS",
+        "previous_unique_id": null,
+        "unit_of_measurement": "ppm"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "a9b37d204836b925fc734ae6f5ac5031",
+        "device_class": null,
+        "device_id": "4f20a8eaeee08463dd0d320eaeed7101",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "sensor.nutrient_tank_ec",
+        "hidden_by": null,
+        "icon": null,
+        "id": "eabb69c4e3facf13d363ece52e98e843",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:meter-electric",
+        "original_name": "EC",
+        "platform": "mqtt",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "EC",
+        "previous_unique_id": null,
+        "unit_of_measurement": "ms/cm"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "a9b37d204836b925fc734ae6f5ac5031",
+        "device_class": null,
+        "device_id": "4f20a8eaeee08463dd0d320eaeed7101",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "binary_sensor.nutrient_tank_tank_level",
+        "hidden_by": null,
+        "icon": null,
+        "id": "9b3b1fb915759e21e5785aec0fb621bb",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "moisture",
+        "original_icon": "mdi:gauge",
+        "original_name": "Tank Level",
+        "platform": "mqtt",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "TankLevel",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "a9b37d204836b925fc734ae6f5ac5031",
+        "device_class": null,
+        "device_id": "4f20a8eaeee08463dd0d320eaeed7101",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "switch.nutrient_tank_a1_pump",
+        "hidden_by": null,
+        "icon": null,
+        "id": "f6b1c178a137276536a75802c728fc7b",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": true
+          }
+        },
+        "original_device_class": "switch",
+        "original_icon": "mdi:gas-station",
+        "original_name": "A1 Pump",
+        "platform": "mqtt",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "A1-PUMP",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "a9b37d204836b925fc734ae6f5ac5031",
+        "device_class": null,
+        "device_id": "4f20a8eaeee08463dd0d320eaeed7101",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "switch.nutrient_tank_a2_pump",
+        "hidden_by": null,
+        "icon": null,
+        "id": "8850c29503ba5f3448b351b53627b353",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": true
+          }
+        },
+        "original_device_class": "switch",
+        "original_icon": "mdi:gas-station",
+        "original_name": "A2 Pump",
+        "platform": "mqtt",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "A2-PUMP",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "a9b37d204836b925fc734ae6f5ac5031",
+        "device_class": null,
+        "device_id": "4f20a8eaeee08463dd0d320eaeed7101",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "switch.nutrient_tank_ph_up_pump",
+        "hidden_by": null,
+        "icon": null,
+        "id": "7c0c5e88fb057919c2da35372a1451f3",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": true
+          }
+        },
+        "original_device_class": "switch",
+        "original_icon": "mdi:gas-station",
+        "original_name": "pH UP Pump",
+        "platform": "mqtt",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "PH-UP-PUMP",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "a9b37d204836b925fc734ae6f5ac5031",
+        "device_class": null,
+        "device_id": "4f20a8eaeee08463dd0d320eaeed7101",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "switch.nutrient_tank_ph_down_pump",
+        "hidden_by": null,
+        "icon": null,
+        "id": "e1bca3070c63743339186456c78a7179",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": true
+          }
+        },
+        "original_device_class": "switch",
+        "original_icon": "mdi:gas-station",
+        "original_name": "pH Down Pump",
+        "platform": "mqtt",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "PH-DOWN-PUMP",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "a9b37d204836b925fc734ae6f5ac5031",
+        "device_class": null,
+        "device_id": "4f20a8eaeee08463dd0d320eaeed7101",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "switch.nutrient_tank_stirer_1",
+        "hidden_by": null,
+        "icon": null,
+        "id": "65f3ff51b3bcb154b8d0f1a8690c23d3",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": true
+          }
+        },
+        "original_device_class": "switch",
+        "original_icon": "mdi:pot-mix",
+        "original_name": "Stirer 1",
+        "platform": "mqtt",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "STIRER-1",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "a9b37d204836b925fc734ae6f5ac5031",
+        "device_class": null,
+        "device_id": "4f20a8eaeee08463dd0d320eaeed7101",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "switch.nutrient_tank_stirer_2",
+        "hidden_by": null,
+        "icon": null,
+        "id": "3092b44ae889e02457fd7c42470ab084",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": true
+          }
+        },
+        "original_device_class": "switch",
+        "original_icon": "mdi:pot-mix",
+        "original_name": "Stirer 2",
+        "platform": "mqtt",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "STIRER-2",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "0d8d6cc7fd324d1371f14e970f09aaf9",
+        "device_class": null,
+        "device_id": "a0328edfb85319ce4a3ef72afe254dc8",
+        "disabled_by": null,
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.solinoid_device_temperature",
+        "hidden_by": null,
+        "icon": null,
+        "id": "1dee1ef97e84bbc1f48827d1018f407f",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          },
+          "sensor": {
+            "display_precision": null,
+            "suggested_display_precision": 1
+          }
+        },
+        "original_device_class": "temperature",
+        "original_icon": null,
+        "original_name": "solinoid device temperature",
+        "platform": "shelly",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "7C87CE593844-switch:0-temperature",
+        "previous_unique_id": null,
+        "unit_of_measurement": "°F"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "0d8d6cc7fd324d1371f14e970f09aaf9",
+        "device_class": null,
+        "device_id": "a0328edfb85319ce4a3ef72afe254dc8",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "switch.solinoid",
+        "hidden_by": null,
+        "icon": null,
+        "id": "ceaec19bfab00061b9efb71604aabb08",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": true
+          }
+        },
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": "solinoid",
+        "platform": "shelly",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "7C87CE593844-switch:0",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "f947f89ddfcb56170e559f94779982c8",
+        "device_class": null,
+        "device_id": "6f34a9911659aa41bcca7b0fb1986a82",
+        "disabled_by": "integration",
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.third_reality_inc_3rsp02028bz_rssi",
+        "hidden_by": null,
+        "icon": null,
+        "id": "83b87519f36fc1225570b66f5004118b",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "signal_strength",
+        "original_icon": null,
+        "original_name": "RSSI",
+        "platform": "zha",
+        "supported_features": 0,
+        "translation_key": "rssi",
+        "unique_id": "28:2c:02:bf:ff:ed:13:65-1-0-rssi",
+        "previous_unique_id": null,
+        "unit_of_measurement": "dBm"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "f947f89ddfcb56170e559f94779982c8",
+        "device_class": null,
+        "device_id": "6f34a9911659aa41bcca7b0fb1986a82",
+        "disabled_by": "integration",
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.third_reality_inc_3rsp02028bz_lqi",
+        "hidden_by": null,
+        "icon": null,
+        "id": "6d3f56dea0ed950f637d6e06240b7592",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": "LQI",
+        "platform": "zha",
+        "supported_features": 0,
+        "translation_key": "lqi",
+        "unique_id": "28:2c:02:bf:ff:ed:13:65-1-0-lqi",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "f947f89ddfcb56170e559f94779982c8",
+        "device_class": null,
+        "device_id": "6f34a9911659aa41bcca7b0fb1986a82",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "sensor.grow_tent_light_ac_frequency",
+        "hidden_by": null,
+        "icon": null,
+        "id": "31804dc4bb3139178c4364796d3bbb0b",
+        "has_entity_name": true,
+        "name": "Grow Tent Light AC frequency",
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "frequency",
+        "original_icon": null,
+        "original_name": "AC frequency",
+        "platform": "zha",
+        "supported_features": 0,
+        "translation_key": "ac_frequency",
+        "unique_id": "28:2c:02:bf:ff:ed:13:65-1-2820-ac_frequency",
+        "previous_unique_id": null,
+        "unit_of_measurement": "Hz"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "f947f89ddfcb56170e559f94779982c8",
+        "device_class": null,
+        "device_id": "6f34a9911659aa41bcca7b0fb1986a82",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "sensor.grow_tent_light_current",
+        "hidden_by": null,
+        "icon": null,
+        "id": "2b87d555c68fddc30d224cebfdf094a4",
+        "has_entity_name": true,
+        "name": "Grow Tent Light Current",
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "current",
+        "original_icon": null,
+        "original_name": "Current",
+        "platform": "zha",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "28:2c:02:bf:ff:ed:13:65-1-2820-rms_current",
+        "previous_unique_id": null,
+        "unit_of_measurement": "A"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "f947f89ddfcb56170e559f94779982c8",
+        "device_class": null,
+        "device_id": "6f34a9911659aa41bcca7b0fb1986a82",
+        "disabled_by": null,
+        "entity_category": "config",
+        "entity_id": "update.grow_tent_light_firmware",
+        "hidden_by": null,
+        "icon": null,
+        "id": "a2306e043ddc5b91f2550fbfb0919234",
+        "has_entity_name": true,
+        "name": "Grow Tent Light Firmware",
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "firmware",
+        "original_icon": null,
+        "original_name": "Firmware",
+        "platform": "zha",
+        "supported_features": 7,
+        "translation_key": null,
+        "unique_id": "28:2c:02:bf:ff:ed:13:65-1-25-firmware_update",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "f947f89ddfcb56170e559f94779982c8",
+        "device_class": null,
+        "device_id": "6f34a9911659aa41bcca7b0fb1986a82",
+        "disabled_by": null,
+        "entity_category": "diagnostic",
+        "entity_id": "button.grow_tent_light_identify",
+        "hidden_by": null,
+        "icon": null,
+        "id": "ab94ec3377b26c1233ef5694bb54e645",
+        "has_entity_name": true,
+        "name": "Grow Tent Light Identify",
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "identify",
+        "original_icon": null,
+        "original_name": "Identify",
+        "platform": "zha",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "28:2c:02:bf:ff:ed:13:65-1-3",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "f947f89ddfcb56170e559f94779982c8",
+        "device_class": null,
+        "device_id": "6f34a9911659aa41bcca7b0fb1986a82",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "sensor.grow_tent_light_power",
+        "hidden_by": null,
+        "icon": null,
+        "id": "dac6be0ef69cc8bbbe2bf52a8fbe8c59",
+        "has_entity_name": true,
+        "name": "Grow Tent Light Power",
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "power",
+        "original_icon": null,
+        "original_name": "Power",
+        "platform": "zha",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "28:2c:02:bf:ff:ed:13:65-1-2820",
+        "previous_unique_id": null,
+        "unit_of_measurement": "W"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "options": [
+            "Off",
+            "On",
+            "Toggle",
+            "PreviousValue"
+          ]
+        },
+        "config_entry_id": "f947f89ddfcb56170e559f94779982c8",
+        "device_class": null,
+        "device_id": "6f34a9911659aa41bcca7b0fb1986a82",
+        "disabled_by": null,
+        "entity_category": "config",
+        "entity_id": "select.grow_tent_light_start_up_behavior",
+        "hidden_by": null,
+        "icon": null,
+        "id": "6e9c0c6be7a7b574bd198b5971b3d1d4",
+        "has_entity_name": true,
+        "name": "Grow Tent Light Start-up behavior",
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": "Start-up behavior",
+        "platform": "zha",
+        "supported_features": 0,
+        "translation_key": "start_up_on_off",
+        "unique_id": "28:2c:02:bf:ff:ed:13:65-1-6-StartUpOnOff",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "total_increasing"
+        },
+        "config_entry_id": "f947f89ddfcb56170e559f94779982c8",
+        "device_class": null,
+        "device_id": "6f34a9911659aa41bcca7b0fb1986a82",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "sensor.grow_tent_light_summation_delivered",
+        "hidden_by": null,
+        "icon": null,
+        "id": "b0eb65e5dcaf0957a1a7702a6504a050",
+        "has_entity_name": true,
+        "name": "Grow Tent Light Summation delivered",
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "energy",
+        "original_icon": null,
+        "original_name": "Summation delivered",
+        "platform": "zha",
+        "supported_features": 0,
+        "translation_key": "summation_delivered",
+        "unique_id": "28:2c:02:bf:ff:ed:13:65-1-1794-summation_delivered",
+        "previous_unique_id": null,
+        "unit_of_measurement": "kWh"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "f947f89ddfcb56170e559f94779982c8",
+        "device_class": null,
+        "device_id": "6f34a9911659aa41bcca7b0fb1986a82",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "switch.grow_tent_light_switch",
+        "hidden_by": null,
+        "icon": null,
+        "id": "ad8aa182274f6ad564e40ff9e5edef91",
+        "has_entity_name": true,
+        "name": "Grow Tent Light Switch",
+        "options": {
+          "conversation": {
+            "should_expose": true
+          }
+        },
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": "Switch",
+        "platform": "zha",
+        "supported_features": 0,
+        "translation_key": "switch",
+        "unique_id": "28:2c:02:bf:ff:ed:13:65-1",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "f947f89ddfcb56170e559f94779982c8",
+        "device_class": null,
+        "device_id": "6f34a9911659aa41bcca7b0fb1986a82",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "sensor.grow_tent_light_voltage",
+        "hidden_by": null,
+        "icon": null,
+        "id": "21d0303758e546cb494aa66251ea5a2d",
+        "has_entity_name": true,
+        "name": "Grow Tent Light Voltage",
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "voltage",
+        "original_icon": null,
+        "original_name": "Voltage",
+        "platform": "zha",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "28:2c:02:bf:ff:ed:13:65-1-2820-rms_voltage",
+        "previous_unique_id": null,
+        "unit_of_measurement": "V"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "f947f89ddfcb56170e559f94779982c8",
+        "device_class": null,
+        "device_id": "eec99350647e1f4b948170ac82c03205",
+        "disabled_by": "integration",
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.third_reality_inc_3rsp02028bz_rssi_2",
+        "hidden_by": null,
+        "icon": null,
+        "id": "9a727999dda318c719a85801c819e287",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "signal_strength",
+        "original_icon": null,
+        "original_name": "RSSI",
+        "platform": "zha",
+        "supported_features": 0,
+        "translation_key": "rssi",
+        "unique_id": "28:2c:02:bf:ff:eb:d7:30-1-0-rssi",
+        "previous_unique_id": null,
+        "unit_of_measurement": "dBm"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "f947f89ddfcb56170e559f94779982c8",
+        "device_class": null,
+        "device_id": "eec99350647e1f4b948170ac82c03205",
+        "disabled_by": "integration",
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.third_reality_inc_3rsp02028bz_lqi_2",
+        "hidden_by": null,
+        "icon": null,
+        "id": "bc71df908a10f87e788c2c146af6846d",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": "LQI",
+        "platform": "zha",
+        "supported_features": 0,
+        "translation_key": "lqi",
+        "unique_id": "28:2c:02:bf:ff:eb:d7:30-1-0-lqi",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "f947f89ddfcb56170e559f94779982c8",
+        "device_class": null,
+        "device_id": "eec99350647e1f4b948170ac82c03205",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "sensor.aeration_pump_ac_frequency",
+        "hidden_by": null,
+        "icon": null,
+        "id": "1246bcdd60a4a22d7a235055006f31e6",
+        "has_entity_name": true,
+        "name": "Aeration pump AC frequency",
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "frequency",
+        "original_icon": null,
+        "original_name": "AC frequency",
+        "platform": "zha",
+        "supported_features": 0,
+        "translation_key": "ac_frequency",
+        "unique_id": "28:2c:02:bf:ff:eb:d7:30-1-2820-ac_frequency",
+        "previous_unique_id": null,
+        "unit_of_measurement": "Hz"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "f947f89ddfcb56170e559f94779982c8",
+        "device_class": null,
+        "device_id": "eec99350647e1f4b948170ac82c03205",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "sensor.aeration_pump_current",
+        "hidden_by": null,
+        "icon": null,
+        "id": "ed1d26cc169005c4e7adfe0c52ee4257",
+        "has_entity_name": true,
+        "name": "Aeration pump Current",
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "current",
+        "original_icon": null,
+        "original_name": "Current",
+        "platform": "zha",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "28:2c:02:bf:ff:eb:d7:30-1-2820-rms_current",
+        "previous_unique_id": null,
+        "unit_of_measurement": "A"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "f947f89ddfcb56170e559f94779982c8",
+        "device_class": null,
+        "device_id": "eec99350647e1f4b948170ac82c03205",
+        "disabled_by": null,
+        "entity_category": "config",
+        "entity_id": "update.aeration_pump_firmware",
+        "hidden_by": null,
+        "icon": null,
+        "id": "09825c5e94596a30f34b7436d2576368",
+        "has_entity_name": true,
+        "name": "Aeration pump Firmware",
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "firmware",
+        "original_icon": null,
+        "original_name": "Firmware",
+        "platform": "zha",
+        "supported_features": 7,
+        "translation_key": null,
+        "unique_id": "28:2c:02:bf:ff:eb:d7:30-1-25-firmware_update",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "f947f89ddfcb56170e559f94779982c8",
+        "device_class": null,
+        "device_id": "eec99350647e1f4b948170ac82c03205",
+        "disabled_by": null,
+        "entity_category": "diagnostic",
+        "entity_id": "button.aeration_pump_identify",
+        "hidden_by": null,
+        "icon": null,
+        "id": "b9b3468e12cea6384944373dd2e51644",
+        "has_entity_name": true,
+        "name": "Aeration pump Identify",
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "identify",
+        "original_icon": null,
+        "original_name": "Identify",
+        "platform": "zha",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "28:2c:02:bf:ff:eb:d7:30-1-3",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "f947f89ddfcb56170e559f94779982c8",
+        "device_class": null,
+        "device_id": "eec99350647e1f4b948170ac82c03205",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "sensor.aeration_pump_power",
+        "hidden_by": null,
+        "icon": null,
+        "id": "dafb08a7f1e5a55994579e4dab057c16",
+        "has_entity_name": true,
+        "name": "Aeration pump Power",
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "power",
+        "original_icon": null,
+        "original_name": "Power",
+        "platform": "zha",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "28:2c:02:bf:ff:eb:d7:30-1-2820",
+        "previous_unique_id": null,
+        "unit_of_measurement": "W"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "f947f89ddfcb56170e559f94779982c8",
+        "device_class": null,
+        "device_id": "eec99350647e1f4b948170ac82c03205",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "sensor.aeration_pump_power_factor",
+        "hidden_by": null,
+        "icon": null,
+        "id": "62487be3e8e38efe0114663c2b1a33cf",
+        "has_entity_name": true,
+        "name": "Aeration pump Power factor",
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "power_factor",
+        "original_icon": null,
+        "original_name": "Power factor",
+        "platform": "zha",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "28:2c:02:bf:ff:eb:d7:30-1-2820-power_factor",
+        "previous_unique_id": null,
+        "unit_of_measurement": "%"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "options": [
+            "Off",
+            "On",
+            "Toggle",
+            "PreviousValue"
+          ]
+        },
+        "config_entry_id": "f947f89ddfcb56170e559f94779982c8",
+        "device_class": null,
+        "device_id": "eec99350647e1f4b948170ac82c03205",
+        "disabled_by": null,
+        "entity_category": "config",
+        "entity_id": "select.aeration_pump_start_up_behavior",
+        "hidden_by": null,
+        "icon": null,
+        "id": "881af92a47d3a5428dea5ff37af6d395",
+        "has_entity_name": true,
+        "name": "Aeration pump Start-up behavior",
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": "Start-up behavior",
+        "platform": "zha",
+        "supported_features": 0,
+        "translation_key": "start_up_on_off",
+        "unique_id": "28:2c:02:bf:ff:eb:d7:30-1-6-StartUpOnOff",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "total_increasing"
+        },
+        "config_entry_id": "f947f89ddfcb56170e559f94779982c8",
+        "device_class": null,
+        "device_id": "eec99350647e1f4b948170ac82c03205",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "sensor.aeration_pump_summation_delivered",
+        "hidden_by": null,
+        "icon": null,
+        "id": "e816497e51accb0c1d9c93f49d000812",
+        "has_entity_name": true,
+        "name": "Aeration pump Summation delivered",
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "energy",
+        "original_icon": null,
+        "original_name": "Summation delivered",
+        "platform": "zha",
+        "supported_features": 0,
+        "translation_key": "summation_delivered",
+        "unique_id": "28:2c:02:bf:ff:eb:d7:30-1-1794-summation_delivered",
+        "previous_unique_id": null,
+        "unit_of_measurement": "kWh"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "f947f89ddfcb56170e559f94779982c8",
+        "device_class": null,
+        "device_id": "eec99350647e1f4b948170ac82c03205",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "switch.aeration_pump_switch",
+        "hidden_by": null,
+        "icon": null,
+        "id": "198236bb89984d193debd580ce80190d",
+        "has_entity_name": true,
+        "name": "Aeration pump Switch",
+        "options": {
+          "conversation": {
+            "should_expose": true
+          }
+        },
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": "Switch",
+        "platform": "zha",
+        "supported_features": 0,
+        "translation_key": "switch",
+        "unique_id": "28:2c:02:bf:ff:eb:d7:30-1",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "f947f89ddfcb56170e559f94779982c8",
+        "device_class": null,
+        "device_id": "eec99350647e1f4b948170ac82c03205",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "sensor.aeration_pump_voltage",
+        "hidden_by": null,
+        "icon": null,
+        "id": "d5888aa4ffc0bb6b748ecff21cf63d3a",
+        "has_entity_name": true,
+        "name": "Aeration pump Voltage",
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "voltage",
+        "original_icon": null,
+        "original_name": "Voltage",
+        "platform": "zha",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "28:2c:02:bf:ff:eb:d7:30-1-2820-rms_voltage",
+        "previous_unique_id": null,
+        "unit_of_measurement": "V"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "f947f89ddfcb56170e559f94779982c8",
+        "device_class": null,
+        "device_id": "192c6381e5d8ddecf6900e51a3b61bf0",
+        "disabled_by": "integration",
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.third_reality_inc_3rsp02028bz_rssi_3",
+        "hidden_by": null,
+        "icon": null,
+        "id": "2dbc4fda5d6f9598448ccb5c044ac5b9",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "signal_strength",
+        "original_icon": null,
+        "original_name": "RSSI",
+        "platform": "zha",
+        "supported_features": 0,
+        "translation_key": "rssi",
+        "unique_id": "28:2c:02:bf:ff:eb:c7:a1-1-0-rssi",
+        "previous_unique_id": null,
+        "unit_of_measurement": "dBm"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "f947f89ddfcb56170e559f94779982c8",
+        "device_class": null,
+        "device_id": "192c6381e5d8ddecf6900e51a3b61bf0",
+        "disabled_by": "integration",
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.third_reality_inc_3rsp02028bz_lqi_3",
+        "hidden_by": null,
+        "icon": null,
+        "id": "c8b3e6be1567eddee4466dfc88159535",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": "LQI",
+        "platform": "zha",
+        "supported_features": 0,
+        "translation_key": "lqi",
+        "unique_id": "28:2c:02:bf:ff:eb:c7:a1-1-0-lqi",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "f947f89ddfcb56170e559f94779982c8",
+        "device_class": null,
+        "device_id": "192c6381e5d8ddecf6900e51a3b61bf0",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "sensor.nutrient_pump_ac_frequency",
+        "hidden_by": null,
+        "icon": null,
+        "id": "5feff9f11d56af5f36a0d088ecbcb4e2",
+        "has_entity_name": true,
+        "name": "Nutrient Pump AC frequency",
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "frequency",
+        "original_icon": null,
+        "original_name": "AC frequency",
+        "platform": "zha",
+        "supported_features": 0,
+        "translation_key": "ac_frequency",
+        "unique_id": "28:2c:02:bf:ff:eb:c7:a1-1-2820-ac_frequency",
+        "previous_unique_id": null,
+        "unit_of_measurement": "Hz"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "f947f89ddfcb56170e559f94779982c8",
+        "device_class": null,
+        "device_id": "192c6381e5d8ddecf6900e51a3b61bf0",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "sensor.nutrient_pump_current",
+        "hidden_by": null,
+        "icon": null,
+        "id": "d49cda3d666a29d321f9876afdf15ca0",
+        "has_entity_name": true,
+        "name": "Nutrient Pump Current",
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "current",
+        "original_icon": null,
+        "original_name": "Current",
+        "platform": "zha",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "28:2c:02:bf:ff:eb:c7:a1-1-2820-rms_current",
+        "previous_unique_id": null,
+        "unit_of_measurement": "A"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "f947f89ddfcb56170e559f94779982c8",
+        "device_class": null,
+        "device_id": "192c6381e5d8ddecf6900e51a3b61bf0",
+        "disabled_by": null,
+        "entity_category": "config",
+        "entity_id": "update.nutrient_pump_firmware",
+        "hidden_by": null,
+        "icon": null,
+        "id": "0d26f0feb34e5f2ca866c5f0e95130a1",
+        "has_entity_name": true,
+        "name": "Nutrient Pump Firmware",
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "firmware",
+        "original_icon": null,
+        "original_name": "Firmware",
+        "platform": "zha",
+        "supported_features": 7,
+        "translation_key": null,
+        "unique_id": "28:2c:02:bf:ff:eb:c7:a1-1-25-firmware_update",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "f947f89ddfcb56170e559f94779982c8",
+        "device_class": null,
+        "device_id": "192c6381e5d8ddecf6900e51a3b61bf0",
+        "disabled_by": null,
+        "entity_category": "diagnostic",
+        "entity_id": "button.nutrient_pump_identify",
+        "hidden_by": null,
+        "icon": null,
+        "id": "794481581ae3ec9c5cce98a3d7d6414f",
+        "has_entity_name": true,
+        "name": "Nutrient Pump Identify",
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "identify",
+        "original_icon": null,
+        "original_name": "Identify",
+        "platform": "zha",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "28:2c:02:bf:ff:eb:c7:a1-1-3",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "f947f89ddfcb56170e559f94779982c8",
+        "device_class": null,
+        "device_id": "192c6381e5d8ddecf6900e51a3b61bf0",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "sensor.nutrient_pump_power",
+        "hidden_by": null,
+        "icon": null,
+        "id": "b7710a2a126a3ef64616a8db9e1e93b1",
+        "has_entity_name": true,
+        "name": "Nutrient Pump Power",
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "power",
+        "original_icon": null,
+        "original_name": "Power",
+        "platform": "zha",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "28:2c:02:bf:ff:eb:c7:a1-1-2820",
+        "previous_unique_id": null,
+        "unit_of_measurement": "W"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "f947f89ddfcb56170e559f94779982c8",
+        "device_class": null,
+        "device_id": "192c6381e5d8ddecf6900e51a3b61bf0",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "sensor.nutrient_pump_power_factor",
+        "hidden_by": null,
+        "icon": null,
+        "id": "971d0d94d04e2615f692f8bc0773bcca",
+        "has_entity_name": true,
+        "name": "Nutrient Pump Power factor",
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "power_factor",
+        "original_icon": null,
+        "original_name": "Power factor",
+        "platform": "zha",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "28:2c:02:bf:ff:eb:c7:a1-1-2820-power_factor",
+        "previous_unique_id": null,
+        "unit_of_measurement": "%"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "options": [
+            "Off",
+            "On",
+            "Toggle",
+            "PreviousValue"
+          ]
+        },
+        "config_entry_id": "f947f89ddfcb56170e559f94779982c8",
+        "device_class": null,
+        "device_id": "192c6381e5d8ddecf6900e51a3b61bf0",
+        "disabled_by": null,
+        "entity_category": "config",
+        "entity_id": "select.nutrient_pump_start_up_behavior",
+        "hidden_by": null,
+        "icon": null,
+        "id": "34cda82363ffc55890c50cfb37c1a3cb",
+        "has_entity_name": true,
+        "name": "Nutrient Pump Start-up behavior",
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": "Start-up behavior",
+        "platform": "zha",
+        "supported_features": 0,
+        "translation_key": "start_up_on_off",
+        "unique_id": "28:2c:02:bf:ff:eb:c7:a1-1-6-StartUpOnOff",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "total_increasing"
+        },
+        "config_entry_id": "f947f89ddfcb56170e559f94779982c8",
+        "device_class": null,
+        "device_id": "192c6381e5d8ddecf6900e51a3b61bf0",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "sensor.nutrient_pump_summation_delivered",
+        "hidden_by": null,
+        "icon": null,
+        "id": "ba9f2da9209d18e1ca38211358b33116",
+        "has_entity_name": true,
+        "name": "Nutrient Pump Summation delivered",
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "energy",
+        "original_icon": null,
+        "original_name": "Summation delivered",
+        "platform": "zha",
+        "supported_features": 0,
+        "translation_key": "summation_delivered",
+        "unique_id": "28:2c:02:bf:ff:eb:c7:a1-1-1794-summation_delivered",
+        "previous_unique_id": null,
+        "unit_of_measurement": "kWh"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "f947f89ddfcb56170e559f94779982c8",
+        "device_class": null,
+        "device_id": "192c6381e5d8ddecf6900e51a3b61bf0",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "switch.nutrient_pump_switch",
+        "hidden_by": null,
+        "icon": null,
+        "id": "edc098529a6eff6e275580ec811883dd",
+        "has_entity_name": true,
+        "name": "Nutrient Pump Switch",
+        "options": {
+          "conversation": {
+            "should_expose": true
+          }
+        },
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": "Switch",
+        "platform": "zha",
+        "supported_features": 0,
+        "translation_key": "switch",
+        "unique_id": "28:2c:02:bf:ff:eb:c7:a1-1",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "f947f89ddfcb56170e559f94779982c8",
+        "device_class": null,
+        "device_id": "192c6381e5d8ddecf6900e51a3b61bf0",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "sensor.nutrient_pump_voltage",
+        "hidden_by": null,
+        "icon": null,
+        "id": "9b6e827b0a17d887bb4476aec3e30d35",
+        "has_entity_name": true,
+        "name": "Nutrient Pump Voltage",
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "voltage",
+        "original_icon": null,
+        "original_name": "Voltage",
+        "platform": "zha",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "28:2c:02:bf:ff:eb:c7:a1-1-2820-rms_voltage",
+        "previous_unique_id": null,
+        "unit_of_measurement": "V"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "e8c5499a1bfa5d981f36a34cdbae6a6c",
+        "device_class": null,
+        "device_id": "409c9eda10d48e535f5a8e3c0a7e98ce",
+        "disabled_by": "integration",
+        "entity_category": null,
+        "entity_id": "binary_sensor.node_red_running",
+        "hidden_by": null,
+        "icon": null,
+        "id": "e3301ffaaba10e8b0a9e97404f576e62",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "running",
+        "original_icon": null,
+        "original_name": "Running",
+        "platform": "hassio",
+        "supported_features": 0,
+        "translation_key": "state",
+        "unique_id": "a0d7b954_nodered_state",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "e8c5499a1bfa5d981f36a34cdbae6a6c",
+        "device_class": null,
+        "device_id": "409c9eda10d48e535f5a8e3c0a7e98ce",
+        "disabled_by": "integration",
+        "entity_category": null,
+        "entity_id": "sensor.node_red_version",
+        "hidden_by": null,
+        "icon": null,
+        "id": "eea738c30b7f59f123bbbfa6e59671fd",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": "Version",
+        "platform": "hassio",
+        "supported_features": 0,
+        "translation_key": "version",
+        "unique_id": "a0d7b954_nodered_version",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "e8c5499a1bfa5d981f36a34cdbae6a6c",
+        "device_class": null,
+        "device_id": "409c9eda10d48e535f5a8e3c0a7e98ce",
+        "disabled_by": "integration",
+        "entity_category": null,
+        "entity_id": "sensor.node_red_newest_version",
+        "hidden_by": null,
+        "icon": null,
+        "id": "3b0770c28e3a64d4e0200e54482e4b32",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": "Newest version",
+        "platform": "hassio",
+        "supported_features": 0,
+        "translation_key": "version_latest",
+        "unique_id": "a0d7b954_nodered_version_latest",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "e8c5499a1bfa5d981f36a34cdbae6a6c",
+        "device_class": null,
+        "device_id": "409c9eda10d48e535f5a8e3c0a7e98ce",
+        "disabled_by": "integration",
+        "entity_category": null,
+        "entity_id": "sensor.node_red_cpu_percent",
+        "hidden_by": null,
+        "icon": null,
+        "id": "3ac691d411d6f6de9331b7f590ffb946",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:cpu-64-bit",
+        "original_name": "CPU percent",
+        "platform": "hassio",
+        "supported_features": 0,
+        "translation_key": "cpu_percent",
+        "unique_id": "a0d7b954_nodered_cpu_percent",
+        "previous_unique_id": null,
+        "unit_of_measurement": "%"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "e8c5499a1bfa5d981f36a34cdbae6a6c",
+        "device_class": null,
+        "device_id": "409c9eda10d48e535f5a8e3c0a7e98ce",
+        "disabled_by": "integration",
+        "entity_category": null,
+        "entity_id": "sensor.node_red_memory_percent",
+        "hidden_by": null,
+        "icon": null,
+        "id": "19994cce02dc83663920830c49e26dee",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:memory",
+        "original_name": "Memory percent",
+        "platform": "hassio",
+        "supported_features": 0,
+        "translation_key": "memory_percent",
+        "unique_id": "a0d7b954_nodered_memory_percent",
+        "previous_unique_id": null,
+        "unit_of_measurement": "%"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "e8c5499a1bfa5d981f36a34cdbae6a6c",
+        "device_class": null,
+        "device_id": "409c9eda10d48e535f5a8e3c0a7e98ce",
+        "disabled_by": null,
+        "entity_category": "config",
+        "entity_id": "update.node_red_update",
+        "hidden_by": null,
+        "icon": null,
+        "id": "75714e167162427c6d0e83f1e5ed2da4",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": "Update",
+        "platform": "hassio",
+        "supported_features": 25,
+        "translation_key": null,
+        "unique_id": "a0d7b954_nodered_version_latest",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "a9b37d204836b925fc734ae6f5ac5031",
+        "device_class": null,
+        "device_id": "358c8c61319c61b3c3a93bd83683b6ea",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "sensor.growtent_moisture_plant_1",
+        "hidden_by": null,
+        "icon": null,
+        "id": "bdb73d9a9dc4f5dcb7ccd5f27fbb2b74",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:water-percent",
+        "original_name": "Moisture Plant 1",
+        "platform": "mqtt",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "Moisture_1",
+        "previous_unique_id": null,
+        "unit_of_measurement": "%"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "a9b37d204836b925fc734ae6f5ac5031",
+        "device_class": null,
+        "device_id": "358c8c61319c61b3c3a93bd83683b6ea",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "sensor.growtent_moisture_plant_2",
+        "hidden_by": null,
+        "icon": null,
+        "id": "ce8103d3a43ce6535b0f026b46126273",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:water-percent",
+        "original_name": "Moisture Plant 2",
+        "platform": "mqtt",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "Moisture_2",
+        "previous_unique_id": null,
+        "unit_of_measurement": "%"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "a9b37d204836b925fc734ae6f5ac5031",
+        "device_class": null,
+        "device_id": "358c8c61319c61b3c3a93bd83683b6ea",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "sensor.growtent_moisture_plant_3",
+        "hidden_by": null,
+        "icon": null,
+        "id": "14e211111eea11818deb30c12ccf61a7",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:water-percent",
+        "original_name": "Moisture Plant 3",
+        "platform": "mqtt",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "Moisture_3",
+        "previous_unique_id": null,
+        "unit_of_measurement": "%"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "a9b37d204836b925fc734ae6f5ac5031",
+        "device_class": null,
+        "device_id": "358c8c61319c61b3c3a93bd83683b6ea",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "sensor.growtent_moisture_plant_4",
+        "hidden_by": null,
+        "icon": null,
+        "id": "f90eb9956bb1b3d89ad8c06c1ce42aca",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:water-percent",
+        "original_name": "Moisture Plant 4",
+        "platform": "mqtt",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "Moisture_4",
+        "previous_unique_id": null,
+        "unit_of_measurement": "%"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "a9b37d204836b925fc734ae6f5ac5031",
+        "device_class": null,
+        "device_id": "358c8c61319c61b3c3a93bd83683b6ea",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "sensor.growtent_relative_humidity",
+        "hidden_by": null,
+        "icon": null,
+        "id": "807f534f25094cb6220860e53fbdec34",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:water-percent",
+        "original_name": "Relative Humidity",
+        "platform": "mqtt",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "RH",
+        "previous_unique_id": null,
+        "unit_of_measurement": "%"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "a9b37d204836b925fc734ae6f5ac5031",
+        "device_class": null,
+        "device_id": "358c8c61319c61b3c3a93bd83683b6ea",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "sensor.growtent_ambient_temperature",
+        "hidden_by": null,
+        "icon": null,
+        "id": "1cdd895a310df352022548ba7aab0f33",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:thermometer",
+        "original_name": "Ambient Temperature",
+        "platform": "mqtt",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "Ambient_Temperature",
+        "previous_unique_id": null,
+        "unit_of_measurement": "°C"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "a9b37d204836b925fc734ae6f5ac5031",
+        "device_class": null,
+        "device_id": "358c8c61319c61b3c3a93bd83683b6ea",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "sensor.growtent_lux",
+        "hidden_by": null,
+        "icon": null,
+        "id": "a6f4b93384090f75e69ce0708d8240af",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:weather-sunny",
+        "original_name": "Lux",
+        "platform": "mqtt",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "Lux",
+        "previous_unique_id": null,
+        "unit_of_measurement": "lx"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "a9b37d204836b925fc734ae6f5ac5031",
+        "device_class": null,
+        "device_id": "358c8c61319c61b3c3a93bd83683b6ea",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "sensor.growtent_uptime",
+        "hidden_by": null,
+        "icon": null,
+        "id": "61fb7572ed81e5fd5af6b0b5f33e17cb",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:timer",
+        "original_name": "Uptime",
+        "platform": "mqtt",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "GT_uptime",
+        "previous_unique_id": null,
+        "unit_of_measurement": "s"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "total"
+        },
+        "config_entry_id": null,
+        "device_class": null,
+        "device_id": null,
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "sensor.nutrient_pump_summation_delivered_cost",
+        "hidden_by": "integration",
+        "icon": null,
+        "id": "e9f959494eb132f5a1f1b7401e7092c0",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "monetary",
+        "original_icon": null,
+        "original_name": null,
+        "platform": "energy",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "ba9f2da9209d18e1ca38211358b33116_grid_cost",
+        "previous_unique_id": null,
+        "unit_of_measurement": "USD"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "0d8d6cc7fd324d1371f14e970f09aaf9",
+        "device_class": null,
+        "device_id": "a0328edfb85319ce4a3ef72afe254dc8",
+        "disabled_by": null,
+        "entity_category": "config",
+        "entity_id": "update.tank_fill_valve_firmware_update",
+        "hidden_by": null,
+        "icon": null,
+        "id": "980bcd386ea5b61cdce53a4a93198df7",
+        "has_entity_name": false,
+        "name": "Tank Fill Valve firmware update",
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "firmware",
+        "original_icon": null,
+        "original_name": "shellyplus1-7c87ce593844 firmware update",
+        "platform": "shelly",
+        "supported_features": 5,
+        "translation_key": null,
+        "unique_id": "7C87CE593844-sys-fwupdate",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "0d8d6cc7fd324d1371f14e970f09aaf9",
+        "device_class": null,
+        "device_id": "a0328edfb85319ce4a3ef72afe254dc8",
+        "disabled_by": null,
+        "entity_category": "config",
+        "entity_id": "button.tank_fill_valve_reboot",
+        "hidden_by": null,
+        "icon": null,
+        "id": "55cd813bbae572967f3e3f454411adf5",
+        "has_entity_name": false,
+        "name": "Tank Fill Valve Reboot",
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "restart",
+        "original_icon": null,
+        "original_name": "shellyplus1-7c87ce593844 Reboot",
+        "platform": "shelly",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "7C87CE593844_reboot",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "0d8d6cc7fd324d1371f14e970f09aaf9",
+        "device_class": null,
+        "device_id": "a0328edfb85319ce4a3ef72afe254dc8",
+        "disabled_by": null,
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.tank_fill_valve_rssi",
+        "hidden_by": null,
+        "icon": null,
+        "id": "029fac53a9eec933f8f952c894b9828f",
+        "has_entity_name": false,
+        "name": "Tank Fill Valve rssi",
+        "options": {
+          "conversation": {
+            "should_expose": false
+          },
+          "sensor": {
+            "display_precision": null
+          }
+        },
+        "original_device_class": "signal_strength",
+        "original_icon": null,
+        "original_name": "shellyplus1-7c87ce593844 rssi",
+        "platform": "shelly",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "7C87CE593844-wifi-rssi",
+        "previous_unique_id": null,
+        "unit_of_measurement": "dBm"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "0d8d6cc7fd324d1371f14e970f09aaf9",
+        "device_class": null,
+        "device_id": "a0328edfb85319ce4a3ef72afe254dc8",
+        "disabled_by": null,
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.tank_fill_valve_uptime",
+        "hidden_by": null,
+        "icon": null,
+        "id": "2385a64f65c67167f5e80a37b260b89f",
+        "has_entity_name": false,
+        "name": "Tank Fill Valve uptime",
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "timestamp",
+        "original_icon": null,
+        "original_name": "shellyplus1-7c87ce593844 uptime",
+        "platform": "shelly",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "7C87CE593844-sys-uptime",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "0d8d6cc7fd324d1371f14e970f09aaf9",
+        "device_class": null,
+        "device_id": "a0328edfb85319ce4a3ef72afe254dc8",
+        "disabled_by": "integration",
+        "entity_category": "diagnostic",
+        "entity_id": "binary_sensor.tank_fill_valve_cloud",
+        "hidden_by": null,
+        "icon": null,
+        "id": "84cfe61e5c077bf016f5ec1e2a25adf6",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "connectivity",
+        "original_icon": null,
+        "original_name": "shellyplus1-7c87ce593844 cloud",
+        "platform": "shelly",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "7C87CE593844-cloud-cloud",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "0d8d6cc7fd324d1371f14e970f09aaf9",
+        "device_class": null,
+        "device_id": "a0328edfb85319ce4a3ef72afe254dc8",
+        "disabled_by": "integration",
+        "entity_category": null,
+        "entity_id": "binary_sensor.tank_fill_valve_input_0_input",
+        "hidden_by": null,
+        "icon": null,
+        "id": "ad4ee9ca987afb27d92cd809b1d22613",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "power",
+        "original_icon": null,
+        "original_name": "shellyplus1-7c87ce593844 input_0 input",
+        "platform": "shelly",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "7C87CE593844-input:0-input",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "0d8d6cc7fd324d1371f14e970f09aaf9",
+        "device_class": null,
+        "device_id": "a0328edfb85319ce4a3ef72afe254dc8",
+        "disabled_by": "integration",
+        "entity_category": "config",
+        "entity_id": "update.tank_fill_valve_beta_firmware_update",
+        "hidden_by": null,
+        "icon": null,
+        "id": "1fee7dc5abfa0f4d6699bf63c6ec2e21",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "firmware",
+        "original_icon": null,
+        "original_name": "shellyplus1-7c87ce593844 beta firmware update",
+        "platform": "shelly",
+        "supported_features": 5,
+        "translation_key": null,
+        "unique_id": "7C87CE593844-sys-fwupdate_beta",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": null,
+        "device_class": null,
+        "device_id": null,
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "input_boolean.devicesrunning",
+        "hidden_by": null,
+        "icon": null,
+        "id": "9d3610ea0b33f4f7af2bc74964642c98",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:gate",
+        "original_name": "DevicesRunning",
+        "platform": "input_boolean",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "devicesrunning",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "ca974852a78d4ed4548e7472230a2574",
+        "device_class": null,
+        "device_id": null,
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "calendar.grow_calendar",
+        "hidden_by": null,
+        "icon": null,
+        "id": "e21611214d743e3622adb714780eaafe",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": "Grow calendar",
+        "platform": "local_calendar",
+        "supported_features": 7,
+        "translation_key": null,
+        "unique_id": "ca974852a78d4ed4548e7472230a2574",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      }
+    ],
+    "deleted_entities": [
+      {
+        "config_entry_id": null,
+        "entity_id": "media_player.office_monitor",
+        "id": "a881b93df86e494bd14037770e9c5902",
+        "orphaned_timestamp": 1708963538.534763,
+        "platform": "cast",
+        "unique_id": "c059fab4-ecad-b5ce-238f-bad2eff38809"
+      },
+      {
+        "config_entry_id": null,
+        "entity_id": "media_player.office_tv",
+        "id": "8b99118320ed35aa3f2a48f0a81ec607",
+        "orphaned_timestamp": 1708963538.534763,
+        "platform": "cast",
+        "unique_id": "bd02e214-5f11-730d-a676-b68ce7e9c4c0"
+      },
+      {
+        "config_entry_id": null,
+        "entity_id": "media_player.great_room_tv_2",
+        "id": "9b5cca3c69c9d34d696faf92f551e6a5",
+        "orphaned_timestamp": 1708963538.534763,
+        "platform": "cast",
+        "unique_id": "eca37ee4-19f1-26fc-696f-b0d6ba7fb941"
+      },
+      {
+        "config_entry_id": null,
+        "entity_id": "media_player.guest_bedroom_speaker",
+        "id": "09aae0f95b5fd5e3926a565d06cbdb95",
+        "orphaned_timestamp": 1708963538.534763,
+        "platform": "cast",
+        "unique_id": "4f960e5a-7d1a-5306-fd70-f92a3d073a63"
+      },
+      {
+        "config_entry_id": null,
+        "entity_id": "media_player.office_home",
+        "id": "25d1f6c0dc2d3e5986fe719db0b67afb",
+        "orphaned_timestamp": 1708963538.534763,
+        "platform": "cast",
+        "unique_id": "79d9aa25-5029-c5f9-d1c5-97b2d7243c80"
+      },
+      {
+        "config_entry_id": null,
+        "entity_id": "media_player.all_group",
+        "id": "4c1ad960d3405f11b7645555e127c9b1",
+        "orphaned_timestamp": 1708963538.534763,
+        "platform": "cast",
+        "unique_id": "4418e6d9-be49-4a4e-a731-607e85854bc7"
+      },
+      {
+        "config_entry_id": null,
+        "entity_id": "media_player.kitchen_group",
+        "id": "3efbfc9ac01d4a6f108a5756a6c1add7",
+        "orphaned_timestamp": 1708963538.534763,
+        "platform": "cast",
+        "unique_id": "8b60d82a-1cf7-4c21-9c35-7317912eb943"
+      },
+      {
+        "config_entry_id": null,
+        "entity_id": "media_player.great_room_display",
+        "id": "37f2e936793157a5e37f2a7172bb2e50",
+        "orphaned_timestamp": 1708963538.534763,
+        "platform": "cast",
+        "unique_id": "45676b8c-020e-0c5a-89ae-c1d4b1720146"
+      },
+      {
+        "config_entry_id": null,
+        "entity_id": "todo.shopping_list",
+        "id": "1cb35b739566c91182d51e1c2e481f60",
+        "orphaned_timestamp": 1708963561.4751196,
+        "platform": "shopping_list",
+        "unique_id": "7ae6bbd47ba4b75877358092d8a26115"
+      }
+    ]
+  }
+}

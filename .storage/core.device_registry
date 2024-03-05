@@ -1,0 +1,552 @@
+{
+  "version": 1,
+  "minor_version": 4,
+  "key": "core.device_registry",
+  "data": {
+    "devices": [
+      {
+        "area_id": null,
+        "config_entries": [
+          "e8c5499a1bfa5d981f36a34cdbae6a6c"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "805b9b2170ec2ca99a8d450af1ddcb51",
+        "identifiers": [
+          [
+            "hassio",
+            "core"
+          ]
+        ],
+        "manufacturer": "Home Assistant",
+        "model": "Home Assistant Core",
+        "name_by_user": null,
+        "name": "Home Assistant Core",
+        "serial_number": null,
+        "sw_version": "2024.2.5",
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "e8c5499a1bfa5d981f36a34cdbae6a6c"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "a1e8ec6babdaa96dc30c5b67d0fdca12",
+        "identifiers": [
+          [
+            "hassio",
+            "supervisor"
+          ]
+        ],
+        "manufacturer": "Home Assistant",
+        "model": "Home Assistant Supervisor",
+        "name_by_user": null,
+        "name": "Home Assistant Supervisor",
+        "serial_number": null,
+        "sw_version": "2024.02.1",
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "e8c5499a1bfa5d981f36a34cdbae6a6c"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "bc378ae1284a1e8a92b78623e67c372d",
+        "identifiers": [
+          [
+            "hassio",
+            "host"
+          ]
+        ],
+        "manufacturer": "Home Assistant",
+        "model": "Home Assistant Host",
+        "name_by_user": null,
+        "name": "Home Assistant Host",
+        "serial_number": null,
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "e8c5499a1bfa5d981f36a34cdbae6a6c"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "8a46f3697b17022ea4c10ff91552e4c8",
+        "identifiers": [
+          [
+            "hassio",
+            "OS"
+          ]
+        ],
+        "manufacturer": "Home Assistant",
+        "model": "Home Assistant Operating System",
+        "name_by_user": null,
+        "name": "Home Assistant Operating System",
+        "serial_number": null,
+        "sw_version": "12.0",
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "19ea3a91f67884601eca0bfa175a95a3"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "b91943f1f550989b47e8a47d00c5eba1",
+        "identifiers": [
+          [
+            "sun",
+            "19ea3a91f67884601eca0bfa175a95a3"
+          ]
+        ],
+        "manufacturer": null,
+        "model": null,
+        "name_by_user": null,
+        "name": "Sun",
+        "serial_number": null,
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "1d7dd8d995b073385796377b09914f48"
+        ],
+        "configuration_url": null,
+        "connections": [
+          [
+            "bluetooth",
+            "DC:A6:32:F1:77:79"
+          ]
+        ],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": "usb:v1D6Bp0246d0548",
+        "id": "2f91402975bbedfda766f2e3e651453e",
+        "identifiers": [],
+        "manufacturer": "Raspberry Pi Trading Ltd",
+        "model": "Unknown",
+        "name_by_user": null,
+        "name": "hci0 (DC:A6:32:F1:77:79)",
+        "serial_number": null,
+        "sw_version": "homeassistant",
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "a0f2f9a6264949e52edd2c80ff12a6f1"
+        ],
+        "configuration_url": "https://www.met.no/en",
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "d5618938d30d074592d5c7d52b8786db",
+        "identifiers": [
+          [
+            "met",
+            "a0f2f9a6264949e52edd2c80ff12a6f1"
+          ]
+        ],
+        "manufacturer": "Met.no",
+        "model": "Forecast",
+        "name_by_user": null,
+        "name": "Forecast",
+        "serial_number": null,
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "e8c5499a1bfa5d981f36a34cdbae6a6c"
+        ],
+        "configuration_url": "homeassistant://hassio/addon/core_configurator",
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "a092f6c85e2f7184abc73e2c0adf46b8",
+        "identifiers": [
+          [
+            "hassio",
+            "core_configurator"
+          ]
+        ],
+        "manufacturer": "Official add-ons",
+        "model": "Home Assistant Add-on",
+        "name_by_user": null,
+        "name": "File editor",
+        "serial_number": null,
+        "sw_version": "5.8.0",
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "e8c5499a1bfa5d981f36a34cdbae6a6c"
+        ],
+        "configuration_url": "homeassistant://hassio/addon/a0d7b954_ssh",
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "1d8a603c9af7db50a7beeee924e7e9c4",
+        "identifiers": [
+          [
+            "hassio",
+            "a0d7b954_ssh"
+          ]
+        ],
+        "manufacturer": "Home Assistant Community Add-ons",
+        "model": "Home Assistant Add-on",
+        "name_by_user": null,
+        "name": "Advanced SSH & Web Terminal",
+        "serial_number": null,
+        "sw_version": "17.1.1",
+        "via_device_id": null
+      },
+      {
+        "area_id": "grow_system",
+        "config_entries": [
+          "a9b37d204836b925fc734ae6f5ac5031"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "4f20a8eaeee08463dd0d320eaeed7101",
+        "identifiers": [
+          [
+            "mqtt",
+            "f412faa081c0"
+          ]
+        ],
+        "manufacturer": "arduino",
+        "model": "uno_r4_wifi",
+        "name_by_user": null,
+        "name": "Nutrient Tank",
+        "serial_number": null,
+        "sw_version": "1.0.0",
+        "via_device_id": null
+      },
+      {
+        "area_id": "grow_system",
+        "config_entries": [
+          "0d8d6cc7fd324d1371f14e970f09aaf9"
+        ],
+        "configuration_url": "http://192.168.68.51",
+        "connections": [
+          [
+            "mac",
+            "7c:87:ce:59:38:44"
+          ]
+        ],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": "gen2 (SNSW-001X16EU)",
+        "id": "a0328edfb85319ce4a3ef72afe254dc8",
+        "identifiers": [],
+        "manufacturer": "Shelly",
+        "model": "Shelly Plus 1",
+        "name_by_user": "Tank Fill Valve",
+        "name": "shellyplus1-7c87ce593844",
+        "serial_number": null,
+        "sw_version": "20240223-141953/1.2.2-g7c39781",
+        "via_device_id": null
+      },
+      {
+        "area_id": "grow_system",
+        "config_entries": [
+          "f947f89ddfcb56170e559f94779982c8"
+        ],
+        "configuration_url": null,
+        "connections": [
+          [
+            "zigbee",
+            "00:12:4b:00:2a:2e:24:f3"
+          ]
+        ],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "052829cb0430578b6dbe773557699f08",
+        "identifiers": [
+          [
+            "zha",
+            "00:12:4b:00:2a:2e:24:f3"
+          ]
+        ],
+        "manufacturer": "Texas Instruments",
+        "model": "CC2652",
+        "name_by_user": null,
+        "name": "Zigbee Coordinator",
+        "serial_number": null,
+        "sw_version": "Z-Stack 20210708",
+        "via_device_id": null
+      },
+      {
+        "area_id": "grow_tent",
+        "config_entries": [
+          "f947f89ddfcb56170e559f94779982c8"
+        ],
+        "configuration_url": null,
+        "connections": [
+          [
+            "zigbee",
+            "28:2c:02:bf:ff:ed:13:65"
+          ]
+        ],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "6f34a9911659aa41bcca7b0fb1986a82",
+        "identifiers": [
+          [
+            "zha",
+            "28:2c:02:bf:ff:ed:13:65"
+          ]
+        ],
+        "manufacturer": "Third Reality, Inc",
+        "model": "3RSP02028BZ",
+        "name_by_user": "Grow Tent Light",
+        "name": "Third Reality, Inc 3RSP02028BZ",
+        "serial_number": null,
+        "sw_version": "0x1001304b",
+        "via_device_id": null
+      },
+      {
+        "area_id": "grow_system",
+        "config_entries": [
+          "f947f89ddfcb56170e559f94779982c8"
+        ],
+        "configuration_url": null,
+        "connections": [
+          [
+            "zigbee",
+            "28:2c:02:bf:ff:eb:d7:30"
+          ]
+        ],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "eec99350647e1f4b948170ac82c03205",
+        "identifiers": [
+          [
+            "zha",
+            "28:2c:02:bf:ff:eb:d7:30"
+          ]
+        ],
+        "manufacturer": "Third Reality, Inc",
+        "model": "3RSP02028BZ",
+        "name_by_user": "Aeration pump",
+        "name": "Third Reality, Inc 3RSP02028BZ",
+        "serial_number": null,
+        "sw_version": "0x1001304b",
+        "via_device_id": null
+      },
+      {
+        "area_id": "grow_system",
+        "config_entries": [
+          "f947f89ddfcb56170e559f94779982c8"
+        ],
+        "configuration_url": null,
+        "connections": [
+          [
+            "zigbee",
+            "28:2c:02:bf:ff:eb:c7:a1"
+          ]
+        ],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "192c6381e5d8ddecf6900e51a3b61bf0",
+        "identifiers": [
+          [
+            "zha",
+            "28:2c:02:bf:ff:eb:c7:a1"
+          ]
+        ],
+        "manufacturer": "Third Reality, Inc",
+        "model": "3RSP02028BZ",
+        "name_by_user": "Nutrient Pump",
+        "name": "Third Reality, Inc 3RSP02028BZ",
+        "serial_number": null,
+        "sw_version": "0x1001304b",
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "e8c5499a1bfa5d981f36a34cdbae6a6c"
+        ],
+        "configuration_url": "homeassistant://hassio/addon/a0d7b954_nodered",
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "409c9eda10d48e535f5a8e3c0a7e98ce",
+        "identifiers": [
+          [
+            "hassio",
+            "a0d7b954_nodered"
+          ]
+        ],
+        "manufacturer": "Home Assistant Community Add-ons",
+        "model": "Home Assistant Add-on",
+        "name_by_user": null,
+        "name": "Node-RED",
+        "serial_number": null,
+        "sw_version": "17.0.7",
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "a9b37d204836b925fc734ae6f5ac5031"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "358c8c61319c61b3c3a93bd83683b6ea",
+        "identifiers": [
+          [
+            "mqtt",
+            "6f6f6f6f6f6f"
+          ]
+        ],
+        "manufacturer": "dfrobot",
+        "model": "firebeetle2_esp32e",
+        "name_by_user": null,
+        "name": "GrowTent",
+        "serial_number": null,
+        "sw_version": "1.0.0",
+        "via_device_id": null
+      }
+    ],
+    "deleted_devices": [
+      {
+        "config_entries": [],
+        "connections": [],
+        "identifiers": [
+          [
+            "cast",
+            "c059fab4ecadb5ce238fbad2eff38809"
+          ]
+        ],
+        "id": "be3170d74653a5a2871480ea17bfa713",
+        "orphaned_timestamp": 1708963538.5277114
+      },
+      {
+        "config_entries": [],
+        "connections": [],
+        "identifiers": [
+          [
+            "cast",
+            "bd02e2145f11730da676b68ce7e9c4c0"
+          ]
+        ],
+        "id": "4bab1926eef9d8109fcb6e6e1b78d05c",
+        "orphaned_timestamp": 1708963538.5277114
+      },
+      {
+        "config_entries": [],
+        "connections": [],
+        "identifiers": [
+          [
+            "cast",
+            "eca37ee419f126fc696fb0d6ba7fb941"
+          ]
+        ],
+        "id": "07892644831d9023190453a28d7f34a8",
+        "orphaned_timestamp": 1708963538.5277114
+      },
+      {
+        "config_entries": [],
+        "connections": [],
+        "identifiers": [
+          [
+            "cast",
+            "4f960e5a7d1a5306fd70f92a3d073a63"
+          ]
+        ],
+        "id": "3ea7de8e574289444dc3e4b21209daba",
+        "orphaned_timestamp": 1708963538.5277114
+      },
+      {
+        "config_entries": [],
+        "connections": [],
+        "identifiers": [
+          [
+            "cast",
+            "79d9aa255029c5f9d1c597b2d7243c80"
+          ]
+        ],
+        "id": "7568e8f33a9507049fb5a59d38837928",
+        "orphaned_timestamp": 1708963538.5277114
+      },
+      {
+        "config_entries": [],
+        "connections": [],
+        "identifiers": [
+          [
+            "cast",
+            "4418e6d9be494a4ea731607e85854bc7"
+          ]
+        ],
+        "id": "af60b700d5ae8d8b0b64efbf34524c37",
+        "orphaned_timestamp": 1708963538.5277114
+      },
+      {
+        "config_entries": [],
+        "connections": [],
+        "identifiers": [
+          [
+            "cast",
+            "8b60d82a1cf74c219c357317912eb943"
+          ]
+        ],
+        "id": "02910eceee7975aa5756911717732063",
+        "orphaned_timestamp": 1708963538.5277114
+      },
+      {
+        "config_entries": [],
+        "connections": [],
+        "identifiers": [
+          [
+            "cast",
+            "45676b8c020e0c5a89aec1d4b1720146"
+          ]
+        ],
+        "id": "27ae9b255c2ceb56e2af46fdb867208c",
+        "orphaned_timestamp": 1708963538.5277114
+      }
+    ]
+  }
+}

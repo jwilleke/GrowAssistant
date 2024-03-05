@@ -1,0 +1,108 @@
+2024-02-27 10:45:18.953 WARNING (Recorder) [homeassistant.components.recorder.util] The system could not validate that the sqlite3 database at //config/home-assistant_v2.db was shutdown cleanly
+2024-02-27 10:45:19.022 WARNING (Recorder) [homeassistant.components.recorder.util] Ended unfinished session (id=6 from 2024-02-27 14:01:03.624859)
+2024-02-27 10:45:41.943 WARNING (MainThread) [homeassistant.setup] Setup of zone is taking over 10 seconds.
+2024-02-27 10:45:41.944 WARNING (MainThread) [homeassistant.setup] Setup of tag is taking over 10 seconds.
+2024-02-27 10:45:41.944 WARNING (MainThread) [homeassistant.setup] Setup of input_button is taking over 10 seconds.
+2024-02-27 14:46:08.551 ERROR (MainThread) [zigpy_znp.uart] Received an exception while passing frame to API: TransportFrame(payload=GeneralFrame(header=CommandHeader(id=0xB2, subsystem=Subsystem.ZDO, type=CommandType.AREQ), data=b'\xCC\x7D\x84'))
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/zigpy_znp/types/commands.py", line 417, in from_frame
+    params[param.name], data = param.type.deserialize(data)
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/zigpy/types/struct.py", line 315, in deserialize
+    value, data = field_type.deserialize(data)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/zigpy/types/basic.py", line 194, in deserialize
+    raise ValueError(f"Data is too short to contain {byte_size} bytes")
+ValueError: Data is too short to contain 1 bytes
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/zigpy_znp/uart.py", line 73, in data_received
+    self._api.frame_received(frame.payload)
+  File "/usr/local/lib/python3.12/site-packages/zigpy_znp/api.py", line 840, in frame_received
+    command = command_cls.from_frame(frame, align=self.nvram.align_structs)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/zigpy_znp/types/commands.py", line 424, in from_frame
+    raise ValueError(
+ValueError: Frame data is truncated (parsed {'Src': 0x7DCC, 'Status': <Status.NOT_SUPPORTED: 132>}), required parameter remains: Param(name='Routes', type=<class 'zigpy.zdo.types.Routes'>, description='Routes', optional=False)
+2024-02-27 14:46:11.193 ERROR (MainThread) [zigpy_znp.uart] Received an exception while passing frame to API: TransportFrame(payload=GeneralFrame(header=CommandHeader(id=0xB2, subsystem=Subsystem.ZDO, type=CommandType.AREQ), data=b'\x88\xCB\x84'))
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/zigpy_znp/types/commands.py", line 417, in from_frame
+    params[param.name], data = param.type.deserialize(data)
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/zigpy/types/struct.py", line 315, in deserialize
+    value, data = field_type.deserialize(data)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/zigpy/types/basic.py", line 194, in deserialize
+    raise ValueError(f"Data is too short to contain {byte_size} bytes")
+ValueError: Data is too short to contain 1 bytes
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/zigpy_znp/uart.py", line 73, in data_received
+    self._api.frame_received(frame.payload)
+  File "/usr/local/lib/python3.12/site-packages/zigpy_znp/api.py", line 840, in frame_received
+    command = command_cls.from_frame(frame, align=self.nvram.align_structs)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/zigpy_znp/types/commands.py", line 424, in from_frame
+    raise ValueError(
+ValueError: Frame data is truncated (parsed {'Src': 0xCB88, 'Status': <Status.NOT_SUPPORTED: 132>}), required parameter remains: Param(name='Routes', type=<class 'zigpy.zdo.types.Routes'>, description='Routes', optional=False)
+2024-02-27 14:46:13.851 ERROR (MainThread) [zigpy_znp.uart] Received an exception while passing frame to API: TransportFrame(payload=GeneralFrame(header=CommandHeader(id=0xB2, subsystem=Subsystem.ZDO, type=CommandType.AREQ), data=b'\xF4\x4B\x84'))
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/zigpy_znp/types/commands.py", line 417, in from_frame
+    params[param.name], data = param.type.deserialize(data)
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/zigpy/types/struct.py", line 315, in deserialize
+    value, data = field_type.deserialize(data)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/zigpy/types/basic.py", line 194, in deserialize
+    raise ValueError(f"Data is too short to contain {byte_size} bytes")
+ValueError: Data is too short to contain 1 bytes
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/zigpy_znp/uart.py", line 73, in data_received
+    self._api.frame_received(frame.payload)
+  File "/usr/local/lib/python3.12/site-packages/zigpy_znp/api.py", line 840, in frame_received
+    command = command_cls.from_frame(frame, align=self.nvram.align_structs)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/zigpy_znp/types/commands.py", line 424, in from_frame
+    raise ValueError(
+ValueError: Frame data is truncated (parsed {'Src': 0x4BF4, 'Status': <Status.NOT_SUPPORTED: 132>}), required parameter remains: Param(name='Routes', type=<class 'zigpy.zdo.types.Routes'>, description='Routes', optional=False)
+2024-02-28 06:48:27.680 WARNING (MainThread) [zigpy.ota.provider] Salus: Couldn't download 'https://eu.salusconnect.io/demo/default/status/firmware': 500/Internal Server Error
+2024-02-28 10:48:41.181 ERROR (MainThread) [homeassistant.components.sensor] Platform mqtt does not generate unique IDs. ID ardUptime already exists - ignoring sensor.nutrient_tank_readcount
+2024-02-28 10:52:16.663 ERROR (MainThread) [homeassistant.components.sensor] Platform mqtt does not generate unique IDs. ID ardUptime already exists - ignoring sensor.nutrient_tank_readcount
+2024-02-28 10:53:53.809 ERROR (MainThread) [homeassistant.components.sensor] Platform mqtt does not generate unique IDs. ID ardUptime already exists - ignoring sensor.nutrient_tank_readcount
+2024-02-28 11:02:18.112 ERROR (MainThread) [homeassistant.components.sensor] Platform mqtt does not generate unique IDs. ID ardUptime already exists - ignoring sensor.nutrient_tank_readcount
+2024-02-28 11:04:08.347 ERROR (MainThread) [homeassistant.components.sensor] Platform mqtt does not generate unique IDs. ID ardUptime already exists - ignoring sensor.nutrient_tank_readcount
+2024-02-28 11:10:44.538 ERROR (MainThread) [homeassistant.components.sensor] Platform mqtt does not generate unique IDs. ID ardUptime already exists - ignoring sensor.nutrient_tank_readcount
+2024-02-28 11:11:18.519 ERROR (MainThread) [homeassistant.components.sensor] Platform mqtt does not generate unique IDs. ID ardUptime already exists - ignoring sensor.nutrient_tank_readcount
+2024-02-28 11:12:35.304 ERROR (MainThread) [homeassistant.components.sensor] Platform mqtt does not generate unique IDs. ID ardUptime already exists - ignoring sensor.nutrient_tank_readcount
+2024-02-28 11:14:01.027 ERROR (MainThread) [homeassistant.components.sensor] Platform mqtt does not generate unique IDs. ID ardUptime already exists - ignoring sensor.nutrient_tank_readcount
+2024-02-28 11:14:27.378 ERROR (MainThread) [homeassistant.components.sensor] Platform mqtt does not generate unique IDs. ID ardUptime already exists - ignoring sensor.nutrient_tank_readcount
+2024-02-28 11:15:15.212 ERROR (MainThread) [homeassistant.components.sensor] Platform mqtt does not generate unique IDs. ID ardUptime already exists - ignoring sensor.nutrient_tank_readcount
+2024-02-28 11:17:38.590 ERROR (MainThread) [homeassistant.components.sensor] Platform mqtt does not generate unique IDs. ID ardUptime already exists - ignoring sensor.nutrient_tank_readcount
+2024-02-28 11:18:21.709 ERROR (MainThread) [homeassistant.components.sensor] Platform mqtt does not generate unique IDs. ID ardUptime already exists - ignoring sensor.nutrient_tank_readcount
+2024-02-28 11:26:19.219 ERROR (MainThread) [homeassistant.components.sensor] Platform mqtt does not generate unique IDs. ID ardUptime already exists - ignoring sensor.nutrient_tank_readcount
+2024-02-28 11:29:52.186 ERROR (MainThread) [homeassistant.components.sensor] Platform mqtt does not generate unique IDs. ID ardUptime already exists - ignoring sensor.nutrient_tank_readcount
+2024-02-28 11:41:40.893 ERROR (MainThread) [aioshelly.rpc_device.wsrpc] 192.168.68.51: Pong not received, device is likely unresponsive; disconnecting
+2024-02-28 11:41:43.951 ERROR (MainThread) [homeassistant.components.shelly] Error fetching shellyplus1-7c87ce593844 data: Device disconnected: DeviceConnectionError(DeviceConnectionError(ClientConnectorError(ConnectionKey(host='192.168.68.51', port=80, is_ssl=False, ssl=True, proxy=None, proxy_auth=None, proxy_headers_hash=3438239877790275900), OSError(113, "Connect call failed ('192.168.68.51', 80)"))))
+2024-02-29 09:56:36.467 ERROR (MainThread) [frontend.js.latest.202402071] Uncaught error from Chrome 122.0.0.0 on Mac OS 10.15.7
+TypeError: Cannot read properties of undefined (reading 'domain')
+_keyFunction (src/panels/config/integrations/dialog-add-integration.ts:464:16)
+keyFunction (src/virtualize.ts:116:41)
+r (src/directives/repeat.ts:56:28)
+ct (src/directives/repeat.ts:93:52)
+update (src/directive.ts:134:16)
+_$AS (src/lit-html.ts:1085:23)
+S (src/lit-html.ts:1362:12)
+_$AI (src/async-directive.ts:366:18)
+setValue (src/virtualize.ts:139:13)
+dispatchEvent (src/Virtualizer.ts:808:23)
+2024-02-29 22:06:40.027 WARNING (Thread-3 (_thread_main)) [homeassistant.components.mqtt.client] Disconnected from MQTT server 192.168.68.122:1883 (7)
+2024-02-29 22:07:11.091 ERROR (MainThread) [homeassistant.components.sensor] Platform mqtt does not generate unique IDs. ID ardUptime already exists - ignoring sensor.nutrient_tank_readcount
+2024-03-02 05:45:18.994 ERROR (MainThread) [homeassistant.components.shelly] Error fetching shellyplus1-7c87ce593844 data: Device disconnected: DeviceConnectionError(RpcCallError(-109, 'shutting down in 156 ms'))
+2024-03-02 07:03:46.454 ERROR (MainThread) [homeassistant.components.shelly] Error fetching shellyplus1-7c87ce593844 data: Device disconnected: DeviceConnectionError(RpcCallError(-109, 'shutting down in 78 ms'))

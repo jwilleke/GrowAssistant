@@ -1,0 +1,509 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "core.config_entries",
+  "data": {
+    "entries": [
+      {
+        "entry_id": "e8c5499a1bfa5d981f36a34cdbae6a6c",
+        "version": 1,
+        "minor_version": 1,
+        "domain": "hassio",
+        "title": "Supervisor",
+        "data": {},
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "system",
+        "unique_id": "hassio",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "9cd032d99ba1b9cafcce76e87d85d4db",
+        "version": 1,
+        "minor_version": 1,
+        "domain": "raspberry_pi",
+        "title": "Raspberry Pi",
+        "data": {},
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "system",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "19ea3a91f67884601eca0bfa175a95a3",
+        "version": 1,
+        "minor_version": 1,
+        "domain": "sun",
+        "title": "Sun",
+        "data": {},
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "import",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "85349f5bfc4ff13b709e8a0d8eddce15",
+        "version": 1,
+        "minor_version": 1,
+        "domain": "rpi_power",
+        "title": "Raspberry Pi Power Supply Checker",
+        "data": {},
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "onboarding",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "1d7dd8d995b073385796377b09914f48",
+        "version": 1,
+        "minor_version": 1,
+        "domain": "bluetooth",
+        "title": "DC:A6:32:F1:77:79",
+        "data": {},
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "integration_discovery",
+        "unique_id": "DC:A6:32:F1:77:79",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "b4751831dcf9cb8013f1b8261994c245",
+        "version": 1,
+        "minor_version": 1,
+        "domain": "thread",
+        "title": "Thread",
+        "data": {},
+        "options": {},
+        "pref_disable_new_entities": true,
+        "pref_disable_polling": true,
+        "source": "zeroconf",
+        "unique_id": null,
+        "disabled_by": "user"
+      },
+      {
+        "entry_id": "a0f2f9a6264949e52edd2c80ff12a6f1",
+        "version": 1,
+        "minor_version": 1,
+        "domain": "met",
+        "title": "Home",
+        "data": {
+          "track_home": true
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "onboarding",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "fb37819271805911a46103ff8a80144d",
+        "version": 1,
+        "minor_version": 1,
+        "domain": "google_translate",
+        "title": "Google Translate text-to-speech",
+        "data": {
+          "language": "en",
+          "tld": "com"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "onboarding",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "9acd5ac26133c18114ed5bc5f4c869e4",
+        "version": 1,
+        "minor_version": 1,
+        "domain": "radio_browser",
+        "title": "Radio Browser",
+        "data": {},
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "onboarding",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "e1c0e3674f953c133e5d54a7fa3c9ed9",
+        "version": 1,
+        "minor_version": 1,
+        "domain": "unifi",
+        "title": "default (fd0b:c5e:7975:c468::)",
+        "data": {
+          "host": "fd0b:c5e:7975:c468::"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "ignore",
+        "unique_id": "74:ac:b9:3c:2f:7d",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "8cdcb5576c0e3966afa3337e2e0160b0",
+        "version": 1,
+        "minor_version": 1,
+        "domain": "androidtv_remote",
+        "title": "Great Room TV 2",
+        "data": {
+          "host": "192.168.68.55",
+          "name": "Great Room TV 2"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "ignore",
+        "unique_id": "b0:e4:d5:cf:6d:b0",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "0122309f30cefadc34d792e38b9a436e",
+        "version": 1,
+        "minor_version": 1,
+        "domain": "esphome",
+        "title": "grm-ep1",
+        "data": {
+          "host": "192.168.68.50",
+          "port": 6053
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "ignore",
+        "unique_id": "cc:db:a7:8d:5d:e0",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "825e8ac427c59719ab02a256a7b14f0b",
+        "version": 1,
+        "minor_version": 1,
+        "domain": "dlna_dms",
+        "title": "HDHomeRun DMS 107C213A",
+        "data": {
+          "url": "http://192.168.68.58:80/dms/device.xml"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "ignore",
+        "unique_id": "uuid:4442EE20-DD5A-3D37-AF2F-682569168622::urn:schemas-upnp-org:device:MediaServer:1",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "061780dc05576edfd456551cda4736d6",
+        "version": 1,
+        "minor_version": 1,
+        "domain": "ibeacon",
+        "title": "ibeacon",
+        "data": {},
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "ignore",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "be9906496841cb2b2a968afd807a471f",
+        "version": 1,
+        "minor_version": 1,
+        "domain": "esphome",
+        "title": "kit-ep1",
+        "data": {
+          "host": "192.168.68.59",
+          "port": 6053
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "ignore",
+        "unique_id": "cc:db:a7:8d:5e:a8",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "c9ff8f3549bc95496ae1acd2d2e6a43e",
+        "version": 1,
+        "minor_version": 1,
+        "domain": "nest",
+        "title": "nest",
+        "data": {},
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "ignore",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "805d1278bc5b56b66e6311f44f943355",
+        "version": 1,
+        "minor_version": 1,
+        "domain": "androidtv_remote",
+        "title": "Office monitor",
+        "data": {
+          "host": "192.168.68.126",
+          "name": "Office monitor"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "ignore",
+        "unique_id": "b0:e4:d5:e9:95:6a",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "8bd5c5f9fbf54a864583693aa06d099b",
+        "version": 1,
+        "minor_version": 1,
+        "domain": "androidtv_remote",
+        "title": "office-tv",
+        "data": {
+          "host": "192.168.68.146",
+          "name": "office-tv"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "ignore",
+        "unique_id": "90:0f:0c:51:49:c8",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "5bf5d5e1a16794a95d3db25f9965a440",
+        "version": 1,
+        "minor_version": 1,
+        "domain": "ipp",
+        "title": "officeprinter",
+        "data": {
+          "host": "192.168.68.44",
+          "name": "officeprinter"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "ignore",
+        "unique_id": "434e4238-4835-4e37-4438-480fcfc729b8",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "2dc984bd98082c33ef194627b703550a",
+        "version": 2,
+        "minor_version": 1,
+        "domain": "unifiprotect",
+        "title": "udmpro (192.168.68.1)",
+        "data": {},
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "ignore",
+        "unique_id": "74ACB93C2F7D",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "32cf4e8ac1daa9fb0d645085a1dbe57a",
+        "version": 1,
+        "minor_version": 1,
+        "domain": "upnp",
+        "title": "UniFi Dream Machine",
+        "data": {
+          "udn": "uuid:7f30bf59-3499-49a5-8774-51fca62c19c4",
+          "st": "urn:schemas-upnp-org:device:InternetGatewayDevice:2",
+          "original_udn": "uuid:7f30bf59-3499-49a5-8774-51fca62c19c4",
+          "mac_address": null,
+          "host": "192.168.68.1",
+          "location": "http://[fd0b:c5e:7975:c468::]:45683/rootDesc.xml"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "ignore",
+        "unique_id": "uuid:7f30bf59-3499-49a5-8774-51fca62c19c4::urn:schemas-upnp-org:device:InternetGatewayDevice:2",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "9f40a3006fd566e0a744ba6d3fce84fa",
+        "version": 1,
+        "minor_version": 1,
+        "domain": "braviatv",
+        "title": "XR-65A80CJ (office-tv)",
+        "data": {
+          "host": "192.168.68.146"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "ignore",
+        "unique_id": "uuid:eba515be-dbc1-46d6-885d-8186bb93cbe6",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "a9b37d204836b925fc734ae6f5ac5031",
+        "version": 1,
+        "minor_version": 1,
+        "domain": "mqtt",
+        "title": "192.168.68.122",
+        "data": {
+          "broker": "192.168.68.122",
+          "port": 1883,
+          "discovery": true
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "3f3b5eeb3424e564cdf56ab1a60d3e23",
+        "version": 1,
+        "minor_version": 1,
+        "domain": "cast",
+        "title": "Google Cast",
+        "data": {},
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "ignore",
+        "unique_id": "cast",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "0d8d6cc7fd324d1371f14e970f09aaf9",
+        "version": 1,
+        "minor_version": 1,
+        "domain": "shelly",
+        "title": "shellyplus1-7c87ce593844",
+        "data": {
+          "host": "192.168.68.51",
+          "sleep_period": 0,
+          "model": "SNSW-001X16EU",
+          "gen": 2
+        },
+        "options": {
+          "ble_scanner_mode": "active"
+        },
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "zeroconf",
+        "unique_id": "7C87CE593844",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "f947f89ddfcb56170e559f94779982c8",
+        "version": 4,
+        "minor_version": 1,
+        "domain": "zha",
+        "title": "Sonoff Zigbee 3.0 USB Dongle Plus, s/n: 82d58fadcc45ed11ad7f8da40a86e0b4 - ITead",
+        "data": {
+          "device": {
+            "path": "/dev/serial/by-id/usb-ITead_Sonoff_Zigbee_3.0_USB_Dongle_Plus_82d58fadcc45ed11ad7f8da40a86e0b4-if00-port0",
+            "baudrate": 115200,
+            "flow_control": null
+          },
+          "radio_type": "znp"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "45fcb2a991af96b9a78a503506a9cb0d",
+        "version": 1,
+        "minor_version": 1,
+        "domain": "shelly",
+        "title": "shelly1-8CAAB56E4778",
+        "data": {
+          "host": "192.168.68.56"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "ignore",
+        "unique_id": "8CAAB56E4778",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "05cf3460623842fdb17c81bb5f99a471",
+        "version": 1,
+        "minor_version": 1,
+        "domain": "shelly",
+        "title": "shellyplus1-7c87ce63e864",
+        "data": {
+          "host": "192.168.68.52"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "ignore",
+        "unique_id": "7C87CE63E864",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "be50e7eee9b2690b528d7cafc8bf44c8",
+        "version": 1,
+        "minor_version": 1,
+        "domain": "shelly",
+        "title": "shellyrgbw2-E8DB8481F966",
+        "data": {
+          "host": "192.168.68.129"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "ignore",
+        "unique_id": "E8DB8481F966",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "022621adba9dbc70a4bccef954cb21d4",
+        "version": 1,
+        "minor_version": 1,
+        "domain": "esphome",
+        "title": "office-ep1",
+        "data": {
+          "host": "192.168.68.57",
+          "port": 6053
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "ignore",
+        "unique_id": "c8:f0:9e:ef:cc:d4",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "ca974852a78d4ed4548e7472230a2574",
+        "version": 1,
+        "minor_version": 1,
+        "domain": "local_calendar",
+        "title": "Grow Calendar",
+        "data": {
+          "calendar_name": "Grow Calendar",
+          "storage_key": "grow_calendar"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": null,
+        "disabled_by": null
+      }
+    ]
+  }
+}

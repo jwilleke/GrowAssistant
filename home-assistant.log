@@ -1,0 +1,300 @@
+2024-03-02 15:29:47.742 ERROR (MainThread) [homeassistant.components.sensor] Platform mqtt does not generate unique IDs. ID ardUptime already exists - ignoring sensor.nutrient_tank_readcount
+2024-03-02 17:41:17.183 ERROR (MainThread) [homeassistant.components.websocket_api.http.connection] [547375188416] Error handling message: required key not provided @ data['name']. Got None (invalid_format) jim from 192.168.68.149 (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36)
+2024-03-02 19:30:07.507 ERROR (MainThread) [zigpy_znp.uart] Received an exception while passing frame to API: TransportFrame(payload=GeneralFrame(header=CommandHeader(id=0xB2, subsystem=Subsystem.ZDO, type=CommandType.AREQ), data=b'\xCC\x7D\x84'))
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/zigpy_znp/types/commands.py", line 417, in from_frame
+    params[param.name], data = param.type.deserialize(data)
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/zigpy/types/struct.py", line 315, in deserialize
+    value, data = field_type.deserialize(data)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/zigpy/types/basic.py", line 194, in deserialize
+    raise ValueError(f"Data is too short to contain {byte_size} bytes")
+ValueError: Data is too short to contain 1 bytes
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/zigpy_znp/uart.py", line 73, in data_received
+    self._api.frame_received(frame.payload)
+  File "/usr/local/lib/python3.12/site-packages/zigpy_znp/api.py", line 840, in frame_received
+    command = command_cls.from_frame(frame, align=self.nvram.align_structs)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/zigpy_znp/types/commands.py", line 424, in from_frame
+    raise ValueError(
+ValueError: Frame data is truncated (parsed {'Src': 0x7DCC, 'Status': <Status.NOT_SUPPORTED: 132>}), required parameter remains: Param(name='Routes', type=<class 'zigpy.zdo.types.Routes'>, description='Routes', optional=False)
+2024-03-02 19:30:10.174 ERROR (MainThread) [zigpy_znp.uart] Received an exception while passing frame to API: TransportFrame(payload=GeneralFrame(header=CommandHeader(id=0xB2, subsystem=Subsystem.ZDO, type=CommandType.AREQ), data=b'\x88\xCB\x84'))
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/zigpy_znp/types/commands.py", line 417, in from_frame
+    params[param.name], data = param.type.deserialize(data)
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/zigpy/types/struct.py", line 315, in deserialize
+    value, data = field_type.deserialize(data)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/zigpy/types/basic.py", line 194, in deserialize
+    raise ValueError(f"Data is too short to contain {byte_size} bytes")
+ValueError: Data is too short to contain 1 bytes
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/zigpy_znp/uart.py", line 73, in data_received
+    self._api.frame_received(frame.payload)
+  File "/usr/local/lib/python3.12/site-packages/zigpy_znp/api.py", line 840, in frame_received
+    command = command_cls.from_frame(frame, align=self.nvram.align_structs)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/zigpy_znp/types/commands.py", line 424, in from_frame
+    raise ValueError(
+ValueError: Frame data is truncated (parsed {'Src': 0xCB88, 'Status': <Status.NOT_SUPPORTED: 132>}), required parameter remains: Param(name='Routes', type=<class 'zigpy.zdo.types.Routes'>, description='Routes', optional=False)
+2024-03-02 19:30:14.243 ERROR (MainThread) [zigpy_znp.uart] Received an exception while passing frame to API: TransportFrame(payload=GeneralFrame(header=CommandHeader(id=0xB2, subsystem=Subsystem.ZDO, type=CommandType.AREQ), data=b'\xF4\x4B\x84'))
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/zigpy_znp/types/commands.py", line 417, in from_frame
+    params[param.name], data = param.type.deserialize(data)
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/zigpy/types/struct.py", line 315, in deserialize
+    value, data = field_type.deserialize(data)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/zigpy/types/basic.py", line 194, in deserialize
+    raise ValueError(f"Data is too short to contain {byte_size} bytes")
+ValueError: Data is too short to contain 1 bytes
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/zigpy_znp/uart.py", line 73, in data_received
+    self._api.frame_received(frame.payload)
+  File "/usr/local/lib/python3.12/site-packages/zigpy_znp/api.py", line 840, in frame_received
+    command = command_cls.from_frame(frame, align=self.nvram.align_structs)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/zigpy_znp/types/commands.py", line 424, in from_frame
+    raise ValueError(
+ValueError: Frame data is truncated (parsed {'Src': 0x4BF4, 'Status': <Status.NOT_SUPPORTED: 132>}), required parameter remains: Param(name='Routes', type=<class 'zigpy.zdo.types.Routes'>, description='Routes', optional=False)
+2024-03-02 21:37:16.365 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/components/hassio/ingress.py", line 292, in _websocket_forward
+    await ws_to.send_str(msg.data)
+  File "/usr/local/lib/python3.12/site-packages/aiohttp/web_ws.py", line 335, in send_str
+    await self._writer.send(data, binary=False, compress=compress)
+  File "/usr/local/lib/python3.12/site-packages/aiohttp/http_websocket.py", line 729, in send
+    await self._send_frame(message, WSMsgType.TEXT, compress)
+  File "/usr/local/lib/python3.12/site-packages/aiohttp/http_websocket.py", line 691, in _send_frame
+    await self.protocol._drain_helper()
+  File "/usr/local/lib/python3.12/site-packages/aiohttp/base_protocol.py", line 90, in _drain_helper
+    await asyncio.shield(waiter)
+  File "/usr/local/lib/python3.12/asyncio/selector_events.py", line 999, in _read_ready__data_received
+    data = self._sock.recv(self.max_size)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TimeoutError: [Errno 110] Operation timed out
+2024-03-02 22:05:58.716 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/components/hassio/ingress.py", line 292, in _websocket_forward
+    await ws_to.send_str(msg.data)
+  File "/usr/local/lib/python3.12/site-packages/aiohttp/web_ws.py", line 335, in send_str
+    await self._writer.send(data, binary=False, compress=compress)
+  File "/usr/local/lib/python3.12/site-packages/aiohttp/http_websocket.py", line 729, in send
+    await self._send_frame(message, WSMsgType.TEXT, compress)
+  File "/usr/local/lib/python3.12/site-packages/aiohttp/http_websocket.py", line 691, in _send_frame
+    await self.protocol._drain_helper()
+  File "/usr/local/lib/python3.12/site-packages/aiohttp/base_protocol.py", line 90, in _drain_helper
+    await asyncio.shield(waiter)
+  File "/usr/local/lib/python3.12/asyncio/selector_events.py", line 999, in _read_ready__data_received
+    data = self._sock.recv(self.max_size)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TimeoutError: [Errno 110] Operation timed out
+2024-03-02 22:39:11.422 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/components/hassio/ingress.py", line 292, in _websocket_forward
+    await ws_to.send_str(msg.data)
+  File "/usr/local/lib/python3.12/site-packages/aiohttp/web_ws.py", line 335, in send_str
+    await self._writer.send(data, binary=False, compress=compress)
+  File "/usr/local/lib/python3.12/site-packages/aiohttp/http_websocket.py", line 729, in send
+    await self._send_frame(message, WSMsgType.TEXT, compress)
+  File "/usr/local/lib/python3.12/site-packages/aiohttp/http_websocket.py", line 691, in _send_frame
+    await self.protocol._drain_helper()
+  File "/usr/local/lib/python3.12/site-packages/aiohttp/base_protocol.py", line 90, in _drain_helper
+    await asyncio.shield(waiter)
+  File "/usr/local/lib/python3.12/asyncio/selector_events.py", line 999, in _read_ready__data_received
+    data = self._sock.recv(self.max_size)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TimeoutError: [Errno 110] Operation timed out
+2024-03-02 22:59:07.452 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/components/hassio/ingress.py", line 292, in _websocket_forward
+    await ws_to.send_str(msg.data)
+  File "/usr/local/lib/python3.12/site-packages/aiohttp/web_ws.py", line 335, in send_str
+    await self._writer.send(data, binary=False, compress=compress)
+  File "/usr/local/lib/python3.12/site-packages/aiohttp/http_websocket.py", line 729, in send
+    await self._send_frame(message, WSMsgType.TEXT, compress)
+  File "/usr/local/lib/python3.12/site-packages/aiohttp/http_websocket.py", line 691, in _send_frame
+    await self.protocol._drain_helper()
+  File "/usr/local/lib/python3.12/site-packages/aiohttp/base_protocol.py", line 90, in _drain_helper
+    await asyncio.shield(waiter)
+  File "/usr/local/lib/python3.12/asyncio/selector_events.py", line 999, in _read_ready__data_received
+    data = self._sock.recv(self.max_size)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TimeoutError: [Errno 110] Operation timed out
+2024-03-02 23:19:32.159 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/components/hassio/ingress.py", line 292, in _websocket_forward
+    await ws_to.send_str(msg.data)
+  File "/usr/local/lib/python3.12/site-packages/aiohttp/web_ws.py", line 335, in send_str
+    await self._writer.send(data, binary=False, compress=compress)
+  File "/usr/local/lib/python3.12/site-packages/aiohttp/http_websocket.py", line 729, in send
+    await self._send_frame(message, WSMsgType.TEXT, compress)
+  File "/usr/local/lib/python3.12/site-packages/aiohttp/http_websocket.py", line 691, in _send_frame
+    await self.protocol._drain_helper()
+  File "/usr/local/lib/python3.12/site-packages/aiohttp/base_protocol.py", line 90, in _drain_helper
+    await asyncio.shield(waiter)
+  File "/usr/local/lib/python3.12/asyncio/selector_events.py", line 999, in _read_ready__data_received
+    data = self._sock.recv(self.max_size)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TimeoutError: [Errno 110] Operation timed out
+2024-03-02 23:48:20.665 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/components/hassio/ingress.py", line 292, in _websocket_forward
+    await ws_to.send_str(msg.data)
+  File "/usr/local/lib/python3.12/site-packages/aiohttp/web_ws.py", line 335, in send_str
+    await self._writer.send(data, binary=False, compress=compress)
+  File "/usr/local/lib/python3.12/site-packages/aiohttp/http_websocket.py", line 729, in send
+    await self._send_frame(message, WSMsgType.TEXT, compress)
+  File "/usr/local/lib/python3.12/site-packages/aiohttp/http_websocket.py", line 691, in _send_frame
+    await self.protocol._drain_helper()
+  File "/usr/local/lib/python3.12/site-packages/aiohttp/base_protocol.py", line 90, in _drain_helper
+    await asyncio.shield(waiter)
+  File "/usr/local/lib/python3.12/asyncio/selector_events.py", line 999, in _read_ready__data_received
+    data = self._sock.recv(self.max_size)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TimeoutError: [Errno 110] Operation timed out
+2024-03-03 00:06:40.442 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/components/hassio/ingress.py", line 292, in _websocket_forward
+    await ws_to.send_str(msg.data)
+  File "/usr/local/lib/python3.12/site-packages/aiohttp/web_ws.py", line 335, in send_str
+    await self._writer.send(data, binary=False, compress=compress)
+  File "/usr/local/lib/python3.12/site-packages/aiohttp/http_websocket.py", line 729, in send
+    await self._send_frame(message, WSMsgType.TEXT, compress)
+  File "/usr/local/lib/python3.12/site-packages/aiohttp/http_websocket.py", line 691, in _send_frame
+    await self.protocol._drain_helper()
+  File "/usr/local/lib/python3.12/site-packages/aiohttp/base_protocol.py", line 90, in _drain_helper
+    await asyncio.shield(waiter)
+  File "/usr/local/lib/python3.12/asyncio/selector_events.py", line 999, in _read_ready__data_received
+    data = self._sock.recv(self.max_size)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TimeoutError: [Errno 110] Operation timed out
+2024-03-03 00:41:08.929 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/components/hassio/ingress.py", line 292, in _websocket_forward
+    await ws_to.send_str(msg.data)
+  File "/usr/local/lib/python3.12/site-packages/aiohttp/web_ws.py", line 335, in send_str
+    await self._writer.send(data, binary=False, compress=compress)
+  File "/usr/local/lib/python3.12/site-packages/aiohttp/http_websocket.py", line 729, in send
+    await self._send_frame(message, WSMsgType.TEXT, compress)
+  File "/usr/local/lib/python3.12/site-packages/aiohttp/http_websocket.py", line 691, in _send_frame
+    await self.protocol._drain_helper()
+  File "/usr/local/lib/python3.12/site-packages/aiohttp/base_protocol.py", line 90, in _drain_helper
+    await asyncio.shield(waiter)
+  File "/usr/local/lib/python3.12/asyncio/selector_events.py", line 999, in _read_ready__data_received
+    data = self._sock.recv(self.max_size)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TimeoutError: [Errno 110] Operation timed out
+2024-03-03 01:07:36.132 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/components/hassio/ingress.py", line 292, in _websocket_forward
+    await ws_to.send_str(msg.data)
+  File "/usr/local/lib/python3.12/site-packages/aiohttp/web_ws.py", line 335, in send_str
+    await self._writer.send(data, binary=False, compress=compress)
+  File "/usr/local/lib/python3.12/site-packages/aiohttp/http_websocket.py", line 729, in send
+    await self._send_frame(message, WSMsgType.TEXT, compress)
+  File "/usr/local/lib/python3.12/site-packages/aiohttp/http_websocket.py", line 691, in _send_frame
+    await self.protocol._drain_helper()
+  File "/usr/local/lib/python3.12/site-packages/aiohttp/base_protocol.py", line 90, in _drain_helper
+    await asyncio.shield(waiter)
+  File "/usr/local/lib/python3.12/asyncio/selector_events.py", line 999, in _read_ready__data_received
+    data = self._sock.recv(self.max_size)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TimeoutError: [Errno 110] Operation timed out
+2024-03-03 01:41:46.171 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/components/hassio/ingress.py", line 292, in _websocket_forward
+    await ws_to.send_str(msg.data)
+  File "/usr/local/lib/python3.12/site-packages/aiohttp/web_ws.py", line 335, in send_str
+    await self._writer.send(data, binary=False, compress=compress)
+  File "/usr/local/lib/python3.12/site-packages/aiohttp/http_websocket.py", line 729, in send
+    await self._send_frame(message, WSMsgType.TEXT, compress)
+  File "/usr/local/lib/python3.12/site-packages/aiohttp/http_websocket.py", line 691, in _send_frame
+    await self.protocol._drain_helper()
+  File "/usr/local/lib/python3.12/site-packages/aiohttp/base_protocol.py", line 90, in _drain_helper
+    await asyncio.shield(waiter)
+  File "/usr/local/lib/python3.12/asyncio/selector_events.py", line 999, in _read_ready__data_received
+    data = self._sock.recv(self.max_size)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TimeoutError: [Errno 110] Operation timed out
+2024-03-03 02:00:53.048 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/components/hassio/ingress.py", line 292, in _websocket_forward
+    await ws_to.send_str(msg.data)
+  File "/usr/local/lib/python3.12/site-packages/aiohttp/web_ws.py", line 335, in send_str
+    await self._writer.send(data, binary=False, compress=compress)
+  File "/usr/local/lib/python3.12/site-packages/aiohttp/http_websocket.py", line 729, in send
+    await self._send_frame(message, WSMsgType.TEXT, compress)
+  File "/usr/local/lib/python3.12/site-packages/aiohttp/http_websocket.py", line 691, in _send_frame
+    await self.protocol._drain_helper()
+  File "/usr/local/lib/python3.12/site-packages/aiohttp/base_protocol.py", line 90, in _drain_helper
+    await asyncio.shield(waiter)
+  File "/usr/local/lib/python3.12/asyncio/selector_events.py", line 999, in _read_ready__data_received
+    data = self._sock.recv(self.max_size)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TimeoutError: [Errno 110] Operation timed out
+2024-03-03 02:21:38.236 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/components/hassio/ingress.py", line 292, in _websocket_forward
+    await ws_to.send_str(msg.data)
+  File "/usr/local/lib/python3.12/site-packages/aiohttp/web_ws.py", line 335, in send_str
+    await self._writer.send(data, binary=False, compress=compress)
+  File "/usr/local/lib/python3.12/site-packages/aiohttp/http_websocket.py", line 729, in send
+    await self._send_frame(message, WSMsgType.TEXT, compress)
+  File "/usr/local/lib/python3.12/site-packages/aiohttp/http_websocket.py", line 691, in _send_frame
+    await self.protocol._drain_helper()
+  File "/usr/local/lib/python3.12/site-packages/aiohttp/base_protocol.py", line 90, in _drain_helper
+    await asyncio.shield(waiter)
+  File "/usr/local/lib/python3.12/asyncio/selector_events.py", line 999, in _read_ready__data_received
+    data = self._sock.recv(self.max_size)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TimeoutError: [Errno 110] Operation timed out
+2024-03-03 02:41:15.832 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/components/hassio/ingress.py", line 292, in _websocket_forward
+    await ws_to.send_str(msg.data)
+  File "/usr/local/lib/python3.12/site-packages/aiohttp/web_ws.py", line 335, in send_str
+    await self._writer.send(data, binary=False, compress=compress)
+  File "/usr/local/lib/python3.12/site-packages/aiohttp/http_websocket.py", line 729, in send
+    await self._send_frame(message, WSMsgType.TEXT, compress)
+  File "/usr/local/lib/python3.12/site-packages/aiohttp/http_websocket.py", line 691, in _send_frame
+    await self.protocol._drain_helper()
+  File "/usr/local/lib/python3.12/site-packages/aiohttp/base_protocol.py", line 90, in _drain_helper
+    await asyncio.shield(waiter)
+  File "/usr/local/lib/python3.12/asyncio/selector_events.py", line 999, in _read_ready__data_received
+    data = self._sock.recv(self.max_size)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TimeoutError: [Errno 110] Operation timed out
+2024-03-03 03:18:48.639 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/components/hassio/ingress.py", line 292, in _websocket_forward
+    await ws_to.send_str(msg.data)
+  File "/usr/local/lib/python3.12/site-packages/aiohttp/web_ws.py", line 335, in send_str
+    await self._writer.send(data, binary=False, compress=compress)
+  File "/usr/local/lib/python3.12/site-packages/aiohttp/http_websocket.py", line 729, in send
+    await self._send_frame(message, WSMsgType.TEXT, compress)
+  File "/usr/local/lib/python3.12/site-packages/aiohttp/http_websocket.py", line 691, in _send_frame
+    await self.protocol._drain_helper()
+  File "/usr/local/lib/python3.12/site-packages/aiohttp/base_protocol.py", line 90, in _drain_helper
+    await asyncio.shield(waiter)
+  File "/usr/local/lib/python3.12/asyncio/selector_events.py", line 999, in _read_ready__data_received
+    data = self._sock.recv(self.max_size)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TimeoutError: [Errno 110] Operation timed out
+2024-03-03 11:07:47.629 ERROR (MainThread) [homeassistant.components.shelly] Error fetching shellyplus1-7c87ce593844 data: Device disconnected: DeviceConnectionError()
+2024-03-03 11:11:48.360 ERROR (MainThread) [homeassistant.components.shelly] Error fetching shellyplus1-7c87ce593844 data: Device disconnected: DeviceConnectionError()
+2024-03-03 11:42:41.774 WARNING (MainThread) [homeassistant.helpers.service] Referenced entities switch.my_switch are missing or not currently available
+2024-03-03 12:02:06.626 WARNING (MainThread) [homeassistant.helpers.service] Referenced entities input_boolean.devicesrunning are missing or not currently available
+2024-03-03 12:02:14.812 WARNING (MainThread) [homeassistant.helpers.service] Referenced entities input_boolean.devicesrunning are missing or not currently available

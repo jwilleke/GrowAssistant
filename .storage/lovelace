@@ -1,0 +1,248 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "lovelace",
+  "data": {
+    "config": {
+      "title": "Grow-System",
+      "views": [
+        {
+          "path": "default_view",
+          "title": "Grow-system",
+          "badges": [],
+          "cards": [
+            {
+              "type": "entities",
+              "entities": [
+                {
+                  "entity": "switch.nutrient_pump_switch",
+                  "secondary_info": "last-changed",
+                  "name": "Circulation Pump"
+                },
+                {
+                  "entity": "switch.aeration_pump_switch",
+                  "secondary_info": "last-changed"
+                },
+                {
+                  "entity": "switch.solinoid",
+                  "secondary_info": "last-changed",
+                  "name": "Fill Valve"
+                },
+                {
+                  "entity": "binary_sensor.nutrient_tank_tank_level",
+                  "secondary_info": "last-changed",
+                  "name": "Tank Level"
+                },
+                {
+                  "entity": "switch.nutrient_tank_a1_pump",
+                  "secondary_info": "last-changed",
+                  "name": "A1 Pump"
+                },
+                {
+                  "entity": "switch.nutrient_tank_a2_pump",
+                  "secondary_info": "last-changed",
+                  "name": "A2 Pump"
+                },
+                {
+                  "entity": "switch.nutrient_tank_ph_down_pump",
+                  "secondary_info": "last-changed",
+                  "name": "pH Down Pump"
+                },
+                {
+                  "entity": "switch.nutrient_tank_ph_up_pump",
+                  "secondary_info": "last-changed",
+                  "name": "pH UP Pump"
+                },
+                {
+                  "entity": "switch.nutrient_tank_stirer_1",
+                  "secondary_info": "last-changed",
+                  "name": "Stirrer 1"
+                },
+                {
+                  "entity": "switch.nutrient_tank_stirer_2",
+                  "secondary_info": "last-changed",
+                  "name": "Stirrer 2"
+                },
+                {
+                  "entity": "sensor.nutrient_tank_readcount"
+                }
+              ],
+              "title": "Nutrient Tank Control",
+              "state_color": true
+            },
+            {
+              "type": "entities",
+              "entities": [
+                {
+                  "entity": "sensor.nutrient_tank_ph",
+                  "name": "pH (5-6)",
+                  "secondary_info": "last-changed"
+                },
+                {
+                  "entity": "sensor.nutrient_tank_temperature",
+                  "name": "Tank (18 – 25)",
+                  "secondary_info": "last-changed"
+                },
+                {
+                  "entity": "sensor.nutrient_tank_ec",
+                  "secondary_info": "last-changed",
+                  "name": "EC (12.0 to 20.0)"
+                },
+                {
+                  "entity": "sensor.nutrient_tank_orb",
+                  "name": "ORB (300 to 500 mV)",
+                  "secondary_info": "last-changed"
+                },
+                {
+                  "entity": "sensor.nutrient_tank_tds",
+                  "name": "TDS (800 and 1500)",
+                  "secondary_info": "last-changed"
+                },
+                {
+                  "entity": "sensor.nutrient_tank_readcount",
+                  "secondary_info": "last-changed"
+                }
+              ],
+              "title": "Nutrient Tank Sensors",
+              "state_color": true
+            },
+            {
+              "type": "entities",
+              "entities": [
+                {
+                  "entity": "switch.grow_tent_light_switch",
+                  "secondary_info": "last-changed"
+                },
+                {
+                  "entity": "sensor.growtent_ambient_temperature",
+                  "name": "Ambient Temperature",
+                  "secondary_info": "last-changed"
+                },
+                {
+                  "entity": "sensor.growtent_relative_humidity",
+                  "name": "Relative Humidity",
+                  "secondary_info": "last-changed"
+                },
+                {
+                  "entity": "sensor.growtent_lux",
+                  "name": "Lux",
+                  "secondary_info": "last-changed"
+                },
+                {
+                  "entity": "sensor.growtent_moisture_plant_1",
+                  "name": "Moisture Plant 1",
+                  "secondary_info": "last-changed"
+                },
+                {
+                  "entity": "sensor.growtent_moisture_plant_2",
+                  "name": "Moisture Plant 2",
+                  "secondary_info": "last-changed"
+                },
+                {
+                  "entity": "sensor.growtent_moisture_plant_3",
+                  "name": "Moisture Plant 3",
+                  "secondary_info": "last-changed"
+                },
+                {
+                  "entity": "sensor.growtent_moisture_plant_4",
+                  "name": "Moisture Plant 4",
+                  "secondary_info": "last-changed"
+                },
+                {
+                  "entity": "sensor.growtent_uptime"
+                }
+              ],
+              "title": "GrowTent",
+              "state_color": true
+            },
+            {
+              "type": "weather-forecast",
+              "entity": "weather.forecast_home",
+              "show_forecast": false
+            },
+            {
+              "initial_view": "dayGridMonth",
+              "type": "calendar",
+              "entities": [
+                "calendar.grow_calendar"
+              ],
+              "title": "Grow Calendar"
+            }
+          ]
+        },
+        {
+          "title": "test",
+          "path": "test",
+          "badges": [],
+          "cards": [
+            {
+              "type": "history-graph",
+              "entities": [
+                {
+                  "entity": "sensor.growtent_uptime"
+                },
+                {
+                  "entity": "sensor.nutrient_tank_readcount"
+                },
+                {
+                  "entity": "sensor.tank_fill_valve_uptime"
+                }
+              ]
+            },
+            {
+              "type": "entities",
+              "entities": [
+                {
+                  "entity": "sensor.tank_fill_valve_rssi",
+                  "name": "Rssi",
+                  "secondary_info": "last-changed"
+                },
+                {
+                  "entity": "sensor.solinoid_device_temperature",
+                  "secondary_info": "last-changed"
+                },
+                {
+                  "entity": "button.tank_fill_valve_reboot",
+                  "secondary_info": "last-changed"
+                },
+                {
+                  "entity": "update.tank_fill_valve_firmware_update"
+                }
+              ],
+              "title": "Water Fill Valve",
+              "state_color": true
+            },
+            {
+              "type": "entities",
+              "entities": [
+                {
+                  "entity": "sensor.growtent_uptime"
+                },
+                {
+                  "entity": "sensor.nutrient_tank_readcount"
+                },
+                {
+                  "entity": "sensor.tank_fill_valve_uptime"
+                }
+              ],
+              "state_color": true,
+              "title": "Uptimes"
+            },
+            {
+              "type": "markdown",
+              "content": "For more information see the [GitHub Pages](https://github.com/jwilleke/ArduinoHA-examples/tree/main/docs/Devices)."
+            },
+            {
+              "type": "entities",
+              "entities": [
+                {
+                  "entity": "input_boolean.devicesrunning"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

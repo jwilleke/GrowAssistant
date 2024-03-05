@@ -1,0 +1,370 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "core.restore_state",
+  "data": [
+    {
+      "state": {"entity_id":"person.jim","state":"unknown","attributes":{"editable":true,"id":"jim","user_id":"59569fa4a26444a3a755e1a9122c0139","device_trackers":[],"friendly_name":"jim"},"last_changed":"2024-03-02T20:29:30.376568+00:00","last_updated":"2024-03-02T20:30:02.071455+00:00","context":{"id":"01HR0DR0AQKMRW991894ZMWGP7","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-03-05T11:15:02.310209+00:00"
+    },
+    {
+      "state": {"entity_id":"update.home_assistant_supervisor_update","state":"off","attributes":{"auto_update":true,"installed_version":"2024.02.1","in_progress":false,"latest_version":"2024.02.1","release_summary":null,"release_url":"https://github.com/home-assistant/supervisor/releases/tag/2024.02.1","skipped_version":null,"title":"Home Assistant Supervisor","entity_picture":"https://brands.home-assistant.io/hassio/icon.png","friendly_name":"Home Assistant Supervisor Update","supported_features":1},"last_changed":"2024-03-02T20:29:37.088241+00:00","last_updated":"2024-03-02T20:29:37.088241+00:00","context":{"id":"01HR0DQ7Y0P1EC7GBB0EJF6S0K","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-03-05T11:15:02.310209+00:00"
+    },
+    {
+      "state": {"entity_id":"update.home_assistant_core_update","state":"off","attributes":{"auto_update":false,"installed_version":"2024.2.5","in_progress":false,"latest_version":"2024.2.5","release_summary":null,"release_url":"https://www.home-assistant.io/latest-release-notes/","skipped_version":null,"title":"Home Assistant Core","entity_picture":"https://brands.home-assistant.io/homeassistant/icon.png","friendly_name":"Home Assistant Core Update","supported_features":11},"last_changed":"2024-03-02T20:29:37.089204+00:00","last_updated":"2024-03-02T20:29:37.089204+00:00","context":{"id":"01HR0DQ7Y129G1WC4XXZR41VBF","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-03-05T11:15:02.310209+00:00"
+    },
+    {
+      "state": {"entity_id":"update.file_editor_update","state":"off","attributes":{"auto_update":false,"installed_version":"5.8.0","in_progress":false,"latest_version":"5.8.0","release_summary":"# Changelog\n\n## 5.8.0\n\n- Update base image to Alpine 3.19\n\n## 5.7.0\n\n- Use new location for accessing the Home Assistant configuration folder using `/homeassistant`\n- Add access to the new public configuration folders of add-ons\n- Upgrade to Alpine 3.18\n-","release_url":null,"skipped_version":null,"title":"File editor","entity_picture":"/api/hassio/addons/core_configurator/icon","friendly_name":"File editor Update","supported_features":25},"last_changed":"2024-03-02T20:29:37.089947+00:00","last_updated":"2024-03-02T20:29:37.089947+00:00","context":{"id":"01HR0DQ7Y16BHWP5WBRGQT5QGM","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-03-05T11:15:02.310209+00:00"
+    },
+    {
+      "state": {"entity_id":"update.advanced_ssh_web_terminal_update","state":"off","attributes":{"auto_update":true,"installed_version":"17.1.1","in_progress":false,"latest_version":"17.1.1","release_summary":"## What’s changed\n\n## ⬆️ Dependency updates\n\n- ⬆️ Update yamllint to v1.34.0 @renovate ([#692](https://github.com/hassio-addons/addon-ssh/pull/692))\n- ⬆️ Update Docker to v25.0.3-r0 @renovate ([#693](https://github.com/hassio-addons/addon-ssh/pull/693))\n-","release_url":null,"skipped_version":null,"title":"Advanced SSH & Web Terminal","entity_picture":"/api/hassio/addons/a0d7b954_ssh/icon","friendly_name":"Advanced SSH & Web Terminal Update","supported_features":25},"last_changed":"2024-03-02T20:29:37.090499+00:00","last_updated":"2024-03-05T10:29:36.589037+00:00","context":{"id":"01HR72JR6DW92Q3DKTXTY1PY48","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-03-05T11:15:02.310209+00:00"
+    },
+    {
+      "state": {"entity_id":"update.node_red_update","state":"off","attributes":{"auto_update":false,"installed_version":"17.0.7","in_progress":false,"latest_version":"17.0.7","release_summary":"## What’s changed\n\n## ⬆️ Dependency updates\n\n- ⬆️ Update node-red-contrib-home-assistant-websocket to v0.63.0 @renovate ([#1827](https://github.com/hassio-addons/addon-node-red/pull/1827))\n","release_url":null,"skipped_version":null,"title":"Node-RED","entity_picture":"/api/hassio/addons/a0d7b954_nodered/icon","friendly_name":"Node-RED Update","supported_features":25},"last_changed":"2024-03-02T20:29:37.091134+00:00","last_updated":"2024-03-02T20:29:37.091134+00:00","context":{"id":"01HR0DQ7Y311YFKNPTA2EQ7RGX","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-03-05T11:15:02.310209+00:00"
+    },
+    {
+      "state": {"entity_id":"update.home_assistant_operating_system_update","state":"off","attributes":{"auto_update":false,"installed_version":"12.0","in_progress":false,"latest_version":"12.0","release_summary":null,"release_url":"https://github.com/home-assistant/operating-system/releases/tag/12.0","skipped_version":null,"title":"Home Assistant Operating System","entity_picture":"https://brands.home-assistant.io/homeassistant/icon.png","friendly_name":"Home Assistant Operating System Update","supported_features":3},"last_changed":"2024-03-02T20:29:37.091871+00:00","last_updated":"2024-03-02T20:29:37.091871+00:00","context":{"id":"01HR0DQ7Y3DY694JTWCMPQXM8N","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-03-05T11:15:02.310209+00:00"
+    },
+    {
+      "state": {"entity_id":"tts.google_en_com","state":"unknown","attributes":{"friendly_name":"Google en com"},"last_changed":"2024-03-02T20:29:46.328109+00:00","last_updated":"2024-03-02T20:29:46.328109+00:00","context":{"id":"01HR0DQGYRXSFT49GPDZMHJRM5","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-03-05T11:15:02.310209+00:00"
+    },
+    {
+      "state": {"entity_id":"button.tank_fill_valve_reboot","state":"unknown","attributes":{"device_class":"restart","friendly_name":"Tank Fill Valve Reboot"},"last_changed":"2024-03-02T20:29:46.718203+00:00","last_updated":"2024-03-02T20:29:46.718203+00:00","context":{"id":"01HR0DQHAYXQ7G4NQJDF76TTVH","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-03-05T11:15:02.310209+00:00"
+    },
+    {
+      "state": {"entity_id":"update.tank_fill_valve_firmware_update","state":"off","attributes":{"auto_update":false,"installed_version":"1.2.2","in_progress":false,"latest_version":"1.2.2","release_summary":null,"release_url":"https://shelly-api-docs.shelly.cloud/gen2/changelog/","skipped_version":null,"title":null,"device_class":"firmware","entity_picture":"https://brands.home-assistant.io/_/shelly/icon.png","friendly_name":"Tank Fill Valve firmware update","supported_features":5},"last_changed":"2024-03-02T20:29:46.726510+00:00","last_updated":"2024-03-02T20:29:46.726510+00:00","context":{"id":"01HR0DQHB6FCS836DRMGVW5Q7X","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-03-05T11:15:02.310209+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.nutrient_tank_readcount","state":"154968","attributes":{"unit_of_measurement":"s","icon":"mdi:timer","friendly_name":"Nutrient Tank uptime"},"last_changed":"2024-03-05T11:15:01.133714+00:00","last_updated":"2024-03-05T11:15:01.133714+00:00","context":{"id":"01HR755WWD2075XNPTW2NMMF4P","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "154968",
+        "native_unit_of_measurement": "s"
+      },
+      "last_seen": "2024-03-05T11:15:02.310209+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.nutrient_tank_orb","state":"23.00","attributes":{"unit_of_measurement":"mv","icon":"mdi:current-dc","friendly_name":"Nutrient Tank ORB"},"last_changed":"2024-03-05T11:15:01.134975+00:00","last_updated":"2024-03-05T11:15:01.134975+00:00","context":{"id":"01HR755WWEXWGV8FV5GMDGB6VY","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "23.00",
+        "native_unit_of_measurement": "mv"
+      },
+      "last_seen": "2024-03-05T11:15:02.310209+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.nutrient_tank_ph","state":"7.2","attributes":{"unit_of_measurement":"pH","icon":"mdi:ph","friendly_name":"Nutrient Tank pH"},"last_changed":"2024-03-05T11:14:17.943970+00:00","last_updated":"2024-03-05T11:14:17.943970+00:00","context":{"id":"01HR754JPQVKKHZ0FK8CTWF0K2","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "7.2",
+        "native_unit_of_measurement": "pH"
+      },
+      "last_seen": "2024-03-05T11:15:02.310209+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.nutrient_tank_temperature","state":"19.5","attributes":{"unit_of_measurement":"°C","icon":"mdi:thermometer","friendly_name":"Nutrient Tank Temperature"},"last_changed":"2024-03-05T11:11:20.517588+00:00","last_updated":"2024-03-05T11:11:20.517588+00:00","context":{"id":"01HR74Z5E5AK99D5HPZC62ZPED","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "19.5",
+        "native_unit_of_measurement": "°C"
+      },
+      "last_seen": "2024-03-05T11:15:02.310209+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.nutrient_tank_tds","state":"28.0","attributes":{"unit_of_measurement":"ppm","icon":"mdi:chart-scatter-plot","friendly_name":"Nutrient Tank TDS"},"last_changed":"2024-03-05T11:15:01.177255+00:00","last_updated":"2024-03-05T11:15:01.177255+00:00","context":{"id":"01HR755WXSHBN8TKY2P61ZTDXH","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "28.0",
+        "native_unit_of_measurement": "ppm"
+      },
+      "last_seen": "2024-03-05T11:15:02.310209+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.nutrient_tank_ec","state":"13.30","attributes":{"unit_of_measurement":"ms/cm","icon":"mdi:meter-electric","friendly_name":"Nutrient Tank EC"},"last_changed":"2024-03-05T11:14:59.027276+00:00","last_updated":"2024-03-05T11:14:59.027276+00:00","context":{"id":"01HR755TTKG1S5PCZANE08RMF3","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "13.30",
+        "native_unit_of_measurement": "ms/cm"
+      },
+      "last_seen": "2024-03-05T11:15:02.310209+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.growtent_moisture_plant_1","state":"25.0","attributes":{"unit_of_measurement":"%","icon":"mdi:water-percent","friendly_name":"GrowTent Moisture Plant 1"},"last_changed":"2024-03-05T11:15:02.276133+00:00","last_updated":"2024-03-05T11:15:02.276133+00:00","context":{"id":"01HR755Y04F02VE95ZW1HB7R26","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "25.0",
+        "native_unit_of_measurement": "%"
+      },
+      "last_seen": "2024-03-05T11:15:02.310209+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.growtent_moisture_plant_2","state":"25.0","attributes":{"unit_of_measurement":"%","icon":"mdi:water-percent","friendly_name":"GrowTent Moisture Plant 2"},"last_changed":"2024-03-05T11:14:41.851852+00:00","last_updated":"2024-03-05T11:14:41.851852+00:00","context":{"id":"01HR755A1VACS2FACNKGJMGA6Z","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "25.0",
+        "native_unit_of_measurement": "%"
+      },
+      "last_seen": "2024-03-05T11:15:02.310209+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.growtent_moisture_plant_3","state":"28.0","attributes":{"unit_of_measurement":"%","icon":"mdi:water-percent","friendly_name":"GrowTent Moisture Plant 3"},"last_changed":"2024-03-05T11:13:15.375787+00:00","last_updated":"2024-03-05T11:13:15.375787+00:00","context":{"id":"01HR752NKF8BV87YTVDJQN4T5Q","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "28.0",
+        "native_unit_of_measurement": "%"
+      },
+      "last_seen": "2024-03-05T11:15:02.310209+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.growtent_moisture_plant_4","state":"28.0","attributes":{"unit_of_measurement":"%","icon":"mdi:water-percent","friendly_name":"GrowTent Moisture Plant 4"},"last_changed":"2024-03-05T11:14:46.984382+00:00","last_updated":"2024-03-05T11:14:46.984382+00:00","context":{"id":"01HR755F280DQNADSTR8M0QET3","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "28.0",
+        "native_unit_of_measurement": "%"
+      },
+      "last_seen": "2024-03-05T11:15:02.310209+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.growtent_relative_humidity","state":"43.0","attributes":{"unit_of_measurement":"%","icon":"mdi:water-percent","friendly_name":"GrowTent Relative Humidity"},"last_changed":"2024-03-05T11:15:02.281965+00:00","last_updated":"2024-03-05T11:15:02.281965+00:00","context":{"id":"01HR755Y091ZE3NHEHHW8FTN4G","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "43.0",
+        "native_unit_of_measurement": "%"
+      },
+      "last_seen": "2024-03-05T11:15:02.310209+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.growtent_ambient_temperature","state":"19.9","attributes":{"unit_of_measurement":"°C","icon":"mdi:thermometer","friendly_name":"GrowTent Ambient Temperature"},"last_changed":"2024-03-05T11:01:27.564065+00:00","last_updated":"2024-03-05T11:01:27.564065+00:00","context":{"id":"01HR74D2CCN4KQ04VN1CKZ9V6P","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "19.9",
+        "native_unit_of_measurement": "°C"
+      },
+      "last_seen": "2024-03-05T11:15:02.310209+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.growtent_lux","state":"1297.6","attributes":{"unit_of_measurement":"lx","icon":"mdi:weather-sunny","friendly_name":"GrowTent Lux"},"last_changed":"2024-03-05T11:15:02.307349+00:00","last_updated":"2024-03-05T11:15:02.307349+00:00","context":{"id":"01HR755Y13PQ1E77WZJDJQK4NV","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "1297.6",
+        "native_unit_of_measurement": "lx"
+      },
+      "last_seen": "2024-03-05T11:15:02.310209+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.growtent_uptime","state":"139607","attributes":{"unit_of_measurement":"s","icon":"mdi:timer","friendly_name":"GrowTent Uptime"},"last_changed":"2024-03-05T11:15:02.274917+00:00","last_updated":"2024-03-05T11:15:02.274917+00:00","context":{"id":"01HR755Y02VQW1VHSX1K3CM4E8","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "139607",
+        "native_unit_of_measurement": "s"
+      },
+      "last_seen": "2024-03-05T11:15:02.310209+00:00"
+    },
+    {
+      "state": {"entity_id":"binary_sensor.nutrient_tank_tank_level","state":"on","attributes":{"device_class":"moisture","icon":"mdi:gauge","friendly_name":"Nutrient Tank Tank Level"},"last_changed":"2024-03-05T11:11:27.035883+00:00","last_updated":"2024-03-05T11:11:27.035883+00:00","context":{"id":"01HR74ZBSVQ0NZKDQG7BEFSEYA","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-03-05T11:15:02.310209+00:00"
+    },
+    {
+      "state": {"entity_id":"switch.nutrient_tank_a1_pump","state":"off","attributes":{"device_class":"switch","icon":"mdi:gas-station","friendly_name":"Nutrient Tank A1 Pump"},"last_changed":"2024-03-05T09:27:19.951131+00:00","last_updated":"2024-03-05T09:27:19.951131+00:00","context":{"id":"01HR6Z0PZTQN0P0WBMHWPRTM2B","parent_id":null,"user_id":"59569fa4a26444a3a755e1a9122c0139"}},
+      "extra_data": null,
+      "last_seen": "2024-03-05T11:15:02.310209+00:00"
+    },
+    {
+      "state": {"entity_id":"switch.nutrient_tank_a2_pump","state":"off","attributes":{"device_class":"switch","icon":"mdi:gas-station","friendly_name":"Nutrient Tank A2 Pump"},"last_changed":"2024-03-05T09:27:18.829981+00:00","last_updated":"2024-03-05T09:27:18.829981+00:00","context":{"id":"01HR6Z0NWBFP5Y7WKYB1DJESFC","parent_id":null,"user_id":"59569fa4a26444a3a755e1a9122c0139"}},
+      "extra_data": null,
+      "last_seen": "2024-03-05T11:15:02.310209+00:00"
+    },
+    {
+      "state": {"entity_id":"switch.nutrient_tank_ph_up_pump","state":"off","attributes":{"device_class":"switch","icon":"mdi:gas-station","friendly_name":"Nutrient Tank pH UP Pump"},"last_changed":"2024-03-03T18:30:02.782535+00:00","last_updated":"2024-03-03T18:30:02.782535+00:00","context":{"id":"01HR2S90J8FHS90B1MVS48WM9S","parent_id":null,"user_id":"59569fa4a26444a3a755e1a9122c0139"}},
+      "extra_data": null,
+      "last_seen": "2024-03-05T11:15:02.310209+00:00"
+    },
+    {
+      "state": {"entity_id":"switch.nutrient_tank_ph_down_pump","state":"off","attributes":{"device_class":"switch","icon":"mdi:gas-station","friendly_name":"Nutrient Tank pH Down Pump"},"last_changed":"2024-03-03T18:30:02.760486+00:00","last_updated":"2024-03-03T18:30:02.760486+00:00","context":{"id":"01HR2S90J8FHS90B1MVS48WM9S","parent_id":null,"user_id":"59569fa4a26444a3a755e1a9122c0139"}},
+      "extra_data": null,
+      "last_seen": "2024-03-05T11:15:02.310209+00:00"
+    },
+    {
+      "state": {"entity_id":"switch.nutrient_tank_stirer_1","state":"off","attributes":{"device_class":"switch","icon":"mdi:pot-mix","friendly_name":"Nutrient Tank Stirer 1"},"last_changed":"2024-03-05T11:12:14.986716+00:00","last_updated":"2024-03-05T11:12:14.986716+00:00","context":{"id":"01HR750TF144X4ZQWV3G4QQQQS","parent_id":null,"user_id":"d70b074592fb4dd8b47e51b2e7d93bc5"}},
+      "extra_data": null,
+      "last_seen": "2024-03-05T11:15:02.310209+00:00"
+    },
+    {
+      "state": {"entity_id":"switch.nutrient_tank_stirer_2","state":"off","attributes":{"device_class":"switch","icon":"mdi:pot-mix","friendly_name":"Nutrient Tank Stirer 2"},"last_changed":"2024-03-05T11:11:14.930704+00:00","last_updated":"2024-03-05T11:11:14.930704+00:00","context":{"id":"01HR74YZV2V876QGYXT2VQY3KG","parent_id":null,"user_id":"d70b074592fb4dd8b47e51b2e7d93bc5"}},
+      "extra_data": null,
+      "last_seen": "2024-03-05T11:15:02.310209+00:00"
+    },
+    {
+      "state": {"entity_id":"button.grow_tent_light_identify","state":"unknown","attributes":{"device_class":"identify","friendly_name":"Grow Tent Light Identify"},"last_changed":"2024-03-02T20:30:02.003531+00:00","last_updated":"2024-03-02T20:30:02.003531+00:00","context":{"id":"01HR0DR08KA36PK8JNS6HENDXQ","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-03-05T11:15:02.310209+00:00"
+    },
+    {
+      "state": {"entity_id":"button.aeration_pump_identify","state":"unknown","attributes":{"device_class":"identify","friendly_name":"Aeration pump Identify"},"last_changed":"2024-03-02T20:30:02.004921+00:00","last_updated":"2024-03-02T20:30:02.004921+00:00","context":{"id":"01HR0DR08MKKAWZMAG6NAGWD1G","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-03-05T11:15:02.310209+00:00"
+    },
+    {
+      "state": {"entity_id":"button.nutrient_pump_identify","state":"unknown","attributes":{"device_class":"identify","friendly_name":"Nutrient Pump Identify"},"last_changed":"2024-03-02T20:30:02.006349+00:00","last_updated":"2024-03-02T20:30:02.006349+00:00","context":{"id":"01HR0DR08PEEV1XKN681ESSQVE","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-03-05T11:15:02.310209+00:00"
+    },
+    {
+      "state": {"entity_id":"select.grow_tent_light_start_up_behavior","state":"Off","attributes":{"options":["Off","On","Toggle","PreviousValue"],"friendly_name":"Grow Tent Light Start-up behavior"},"last_changed":"2024-03-02T20:30:02.007928+00:00","last_updated":"2024-03-02T20:30:02.007928+00:00","context":{"id":"01HR0DR08QX9ZPT436JRBH6HXQ","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-03-05T11:15:02.310209+00:00"
+    },
+    {
+      "state": {"entity_id":"select.aeration_pump_start_up_behavior","state":"Off","attributes":{"options":["Off","On","Toggle","PreviousValue"],"friendly_name":"Aeration pump Start-up behavior"},"last_changed":"2024-03-02T20:30:02.009349+00:00","last_updated":"2024-03-02T20:30:02.009349+00:00","context":{"id":"01HR0DR08S0VGZRZS32C7S8W74","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-03-05T11:15:02.310209+00:00"
+    },
+    {
+      "state": {"entity_id":"select.nutrient_pump_start_up_behavior","state":"Off","attributes":{"options":["Off","On","Toggle","PreviousValue"],"friendly_name":"Nutrient Pump Start-up behavior"},"last_changed":"2024-03-02T20:30:02.011086+00:00","last_updated":"2024-03-02T20:30:02.011086+00:00","context":{"id":"01HR0DR08VX54T4FFK1NFJ3210","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-03-05T11:15:02.310209+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.grow_tent_light_current","state":"0.8","attributes":{"state_class":"measurement","unit_of_measurement":"A","device_class":"current","friendly_name":"Grow Tent Light Current"},"last_changed":"2024-03-05T09:08:40.685986+00:00","last_updated":"2024-03-05T09:08:40.685986+00:00","context":{"id":"01HR6XYJ3D6DP2J0Q5RTG8P820","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-03-05T11:15:02.310209+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.grow_tent_light_voltage","state":"122","attributes":{"state_class":"measurement","unit_of_measurement":"V","device_class":"voltage","friendly_name":"Grow Tent Light Voltage"},"last_changed":"2024-03-05T11:14:41.542840+00:00","last_updated":"2024-03-05T11:14:41.542840+00:00","context":{"id":"01HR7559R6C408A68NXM5NZSQJ","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-03-05T11:15:02.310209+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.grow_tent_light_ac_frequency","state":"60","attributes":{"state_class":"measurement","unit_of_measurement":"Hz","device_class":"frequency","friendly_name":"Grow Tent Light AC frequency"},"last_changed":"2024-03-02T20:30:02.016501+00:00","last_updated":"2024-03-02T20:30:02.016501+00:00","context":{"id":"01HR0DR090XR6B1GQWKQEQ78DZ","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-03-05T11:15:02.310209+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.grow_tent_light_power","state":"97.2","attributes":{"state_class":"measurement","unit_of_measurement":"W","device_class":"power","friendly_name":"Grow Tent Light Power"},"last_changed":"2024-03-05T11:14:41.565939+00:00","last_updated":"2024-03-05T11:14:41.565939+00:00","context":{"id":"01HR7559RXG4RV91K56MAAF0A6","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-03-05T11:15:02.310209+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.grow_tent_light_summation_delivered","state":"2.279","attributes":{"state_class":"total_increasing","device_type":"Electric Metering","unit_of_measurement":"kWh","device_class":"energy","friendly_name":"Grow Tent Light Summation delivered"},"last_changed":"2024-03-05T11:14:41.556203+00:00","last_updated":"2024-03-05T11:14:41.556203+00:00","context":{"id":"01HR7559RM32WTVFXXVPJG5MEF","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-03-05T11:15:02.310209+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.aeration_pump_current","state":"0.0","attributes":{"state_class":"measurement","unit_of_measurement":"A","device_class":"current","friendly_name":"Aeration pump Current"},"last_changed":"2024-03-02T20:30:02.023643+00:00","last_updated":"2024-03-02T20:30:02.023643+00:00","context":{"id":"01HR0DR0978XGA77H35R24T1NG","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-03-05T11:15:02.310209+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.aeration_pump_voltage","state":"122","attributes":{"state_class":"measurement","unit_of_measurement":"V","device_class":"voltage","friendly_name":"Aeration pump Voltage"},"last_changed":"2024-03-05T11:07:35.716402+00:00","last_updated":"2024-03-05T11:07:35.716402+00:00","context":{"id":"01HR74R9X4XPZEH2H70H5AJV39","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-03-05T11:15:02.310209+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.aeration_pump_ac_frequency","state":"60","attributes":{"state_class":"measurement","unit_of_measurement":"Hz","device_class":"frequency","friendly_name":"Aeration pump AC frequency"},"last_changed":"2024-03-02T20:30:02.026902+00:00","last_updated":"2024-03-02T20:30:02.026902+00:00","context":{"id":"01HR0DR09APCPE628S6JBDDW0T","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-03-05T11:15:02.310209+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.aeration_pump_power_factor","state":"0","attributes":{"state_class":"measurement","unit_of_measurement":"%","device_class":"power_factor","friendly_name":"Aeration pump Power factor"},"last_changed":"2024-03-02T20:30:02.029054+00:00","last_updated":"2024-03-02T20:30:02.029054+00:00","context":{"id":"01HR0DR09DHQ270QX5KDT7CFWX","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-03-05T11:15:02.310209+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.aeration_pump_power","state":"0.0","attributes":{"state_class":"measurement","unit_of_measurement":"W","device_class":"power","friendly_name":"Aeration pump Power"},"last_changed":"2024-03-02T20:30:02.032769+00:00","last_updated":"2024-03-02T20:30:02.032769+00:00","context":{"id":"01HR0DR09G8NHSBKA2K1GA1AAQ","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-03-05T11:15:02.310209+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.aeration_pump_summation_delivered","state":"0.0","attributes":{"state_class":"total_increasing","device_type":"Electric Metering","unit_of_measurement":"kWh","device_class":"energy","friendly_name":"Aeration pump Summation delivered"},"last_changed":"2024-03-02T20:30:02.034614+00:00","last_updated":"2024-03-02T20:30:02.034614+00:00","context":{"id":"01HR0DR09J0P1YAWT655864HF7","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-03-05T11:15:02.310209+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.nutrient_pump_current","state":"0.0","attributes":{"state_class":"measurement","unit_of_measurement":"A","device_class":"current","friendly_name":"Nutrient Pump Current"},"last_changed":"2024-03-05T11:11:23.900846+00:00","last_updated":"2024-03-05T11:11:23.900846+00:00","context":{"id":"01HR74Z8QW0EG7Z62622EJ86B7","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-03-05T11:15:02.310209+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.nutrient_pump_voltage","state":"122","attributes":{"state_class":"measurement","unit_of_measurement":"V","device_class":"voltage","friendly_name":"Nutrient Pump Voltage"},"last_changed":"2024-03-05T11:11:30.530547+00:00","last_updated":"2024-03-05T11:11:30.530547+00:00","context":{"id":"01HR74ZF72KC12FQG0ARRX5EW6","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-03-05T11:15:02.310209+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.nutrient_pump_ac_frequency","state":"60","attributes":{"state_class":"measurement","unit_of_measurement":"Hz","device_class":"frequency","friendly_name":"Nutrient Pump AC frequency"},"last_changed":"2024-03-02T20:30:02.039457+00:00","last_updated":"2024-03-02T20:30:02.039457+00:00","context":{"id":"01HR0DR09QTZ1X0QN5R71PA0YB","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-03-05T11:15:02.310209+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.nutrient_pump_power_factor","state":"0","attributes":{"state_class":"measurement","unit_of_measurement":"%","device_class":"power_factor","friendly_name":"Nutrient Pump Power factor"},"last_changed":"2024-03-05T11:11:23.914857+00:00","last_updated":"2024-03-05T11:11:23.914857+00:00","context":{"id":"01HR74Z8RAGT1ADYB75R8P83VB","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-03-05T11:15:02.310209+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.nutrient_pump_power","state":"0.0","attributes":{"state_class":"measurement","unit_of_measurement":"W","device_class":"power","friendly_name":"Nutrient Pump Power"},"last_changed":"2024-03-05T11:11:23.912066+00:00","last_updated":"2024-03-05T11:11:23.912066+00:00","context":{"id":"01HR74Z8R8CKV2N2PE07AETT0Z","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-03-05T11:15:02.310209+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.nutrient_pump_summation_delivered","state":"0.056","attributes":{"state_class":"total_increasing","device_type":"Electric Metering","unit_of_measurement":"kWh","device_class":"energy","friendly_name":"Nutrient Pump Summation delivered"},"last_changed":"2024-03-05T10:59:43.791416+00:00","last_updated":"2024-03-05T10:59:43.791416+00:00","context":{"id":"01HR749X1FZ2GTDVHD1QH084QE","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-03-05T11:15:02.310209+00:00"
+    },
+    {
+      "state": {"entity_id":"switch.grow_tent_light_switch","state":"on","attributes":{"friendly_name":"Grow Tent Light Switch"},"last_changed":"2024-03-05T09:08:34.493571+00:00","last_updated":"2024-03-05T09:08:34.493571+00:00","context":{"id":"01HR6XYBYA8HK72ECAYT132MTE","parent_id":null,"user_id":"59569fa4a26444a3a755e1a9122c0139"}},
+      "extra_data": null,
+      "last_seen": "2024-03-05T11:15:02.310209+00:00"
+    },
+    {
+      "state": {"entity_id":"switch.aeration_pump_switch","state":"off","attributes":{"friendly_name":"Aeration pump Switch"},"last_changed":"2024-03-03T20:33:42.012876+00:00","last_updated":"2024-03-03T20:33:42.012876+00:00","context":{"id":"01HR30BE1VWRKJXXF3P55ZDBS4","parent_id":null,"user_id":"59569fa4a26444a3a755e1a9122c0139"}},
+      "extra_data": null,
+      "last_seen": "2024-03-05T11:15:02.310209+00:00"
+    },
+    {
+      "state": {"entity_id":"switch.nutrient_pump_switch","state":"off","attributes":{"friendly_name":"Nutrient Pump Switch"},"last_changed":"2024-03-05T11:11:20.094957+00:00","last_updated":"2024-03-05T11:11:20.094957+00:00","context":{"id":"01HR74Z4WYPD58N12DRW9EGTFQ","parent_id":null,"user_id":"d70b074592fb4dd8b47e51b2e7d93bc5"}},
+      "extra_data": null,
+      "last_seen": "2024-03-05T11:15:02.310209+00:00"
+    },
+    {
+      "state": {"entity_id":"update.grow_tent_light_firmware","state":"off","attributes":{"auto_update":false,"installed_version":"0x1001304b","in_progress":false,"latest_version":"0x1001304b","release_summary":null,"release_url":null,"skipped_version":null,"title":null,"device_class":"firmware","entity_picture":"https://brands.home-assistant.io/_/zha/icon.png","friendly_name":"Grow Tent Light Firmware","supported_features":7},"last_changed":"2024-03-02T20:30:02.052055+00:00","last_updated":"2024-03-02T20:30:02.052055+00:00","context":{"id":"01HR0DR0A4ZHYW8JNQN3AWE1RN","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "image_type": null
+      },
+      "last_seen": "2024-03-05T11:15:02.310209+00:00"
+    },
+    {
+      "state": {"entity_id":"update.aeration_pump_firmware","state":"off","attributes":{"auto_update":false,"installed_version":"0x1001304b","in_progress":false,"latest_version":"0x1001304b","release_summary":null,"release_url":null,"skipped_version":null,"title":null,"device_class":"firmware","entity_picture":"https://brands.home-assistant.io/_/zha/icon.png","friendly_name":"Aeration pump Firmware","supported_features":7},"last_changed":"2024-03-02T20:30:02.059170+00:00","last_updated":"2024-03-02T20:30:02.059170+00:00","context":{"id":"01HR0DR0ABX8B1HR1HGN1J14CQ","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "image_type": null
+      },
+      "last_seen": "2024-03-05T11:15:02.310209+00:00"
+    },
+    {
+      "state": {"entity_id":"update.nutrient_pump_firmware","state":"off","attributes":{"auto_update":false,"installed_version":"0x1001304b","in_progress":false,"latest_version":"0x1001304b","release_summary":null,"release_url":null,"skipped_version":null,"title":null,"device_class":"firmware","entity_picture":"https://brands.home-assistant.io/_/zha/icon.png","friendly_name":"Nutrient Pump Firmware","supported_features":7},"last_changed":"2024-03-02T20:30:02.060643+00:00","last_updated":"2024-03-02T20:30:02.060643+00:00","context":{"id":"01HR0DR0ACS5JH4PT5WJ9D9FMB","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "image_type": null
+      },
+      "last_seen": "2024-03-05T11:15:02.310209+00:00"
+    },
+    {
+      "state": {"entity_id":"input_boolean.devicesrunning","state":"off","attributes":{"editable":true,"icon":"mdi:gate","friendly_name":"DevicesRunning"},"last_changed":"2024-03-05T09:27:13.876493+00:00","last_updated":"2024-03-05T09:27:13.876493+00:00","context":{"id":"01HR6Z0H6KN528DCKWBYW8CXQW","parent_id":null,"user_id":"d70b074592fb4dd8b47e51b2e7d93bc5"}},
+      "extra_data": null,
+      "last_seen": "2024-03-05T11:15:02.310209+00:00"
+    },
+    {
+      "state": {"entity_id":"button.shellyplus1_7c87ce593844_reboot","state":"unknown","attributes":{"device_class":"restart","friendly_name":"shellyplus1-7c87ce593844 Reboot"},"last_changed":"2024-03-02T10:46:15.939120+00:00","last_updated":"2024-03-02T10:46:15.939120+00:00","context":{"id":"01HQZCB343RDAZBV1K75SVM2DN","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-03-02T10:47:11.543980+00:00"
+    },
+    {
+      "state": {"entity_id":"update.shellyplus1_7c87ce593844_firmware_update","state":"off","attributes":{"auto_update":false,"installed_version":"1.2.2","in_progress":false,"latest_version":"1.2.2","release_summary":null,"release_url":"https://shelly-api-docs.shelly.cloud/gen2/changelog/","skipped_version":null,"title":null,"device_class":"firmware","entity_picture":"https://brands.home-assistant.io/_/shelly/icon.png","friendly_name":"shellyplus1-7c87ce593844 firmware update","supported_features":5},"last_changed":"2024-03-02T10:46:15.947176+00:00","last_updated":"2024-03-02T10:46:15.947176+00:00","context":{"id":"01HQZCB34BT22X6J2NA2XPJ3PK","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-03-02T10:47:11.543305+00:00"
+    }
+  ]
+}
